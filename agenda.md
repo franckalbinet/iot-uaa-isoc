@@ -18,4 +18,4 @@ INTRODUCTION
   * [Course resources and materials](resources.md)
 
 TRAINING ENVIRONMENT SETUP
-  * [Setup - tbd](setup.md)
+  * [Setup - tbd](setup.md)
