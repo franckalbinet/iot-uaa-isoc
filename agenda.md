@@ -9,3 +9,13 @@
 * **Franck Albinet**: *Geographical Information System and Data Consultant, France*
 * **Dagmawi Lemma**: *Assistant Professor at Department of Computer Science, Addis Ababa University*
 * **Nesredien Suleiman**: *Lecturer at Addis Ababa University*
+
+## [Day 1](agenda.md)
+INTRODUCTION
+  * Opening
+  * Presentation of course resources and materials
+  * Introduction to Iot
+  * [Course resources and materials](resources.md)
+
+TRAINING ENVIRONMENT SETUP
+  * [Setup](setup.md) - tbd
