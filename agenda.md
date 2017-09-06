@@ -14,8 +14,22 @@
 INTRODUCTION
   * Opening
   * Presentation of course resources and materials
-  * Introduction to Iot
-  * [Course resources and materials](resources.md)
+  * Introduction to IoT
+  * [Course resources and materials (TBD)](./labs/resources.md)
 
 TRAINING ENVIRONMENT SETUP
-  * [Setup - tbd](setup.md)
+  * Introdution to Pycom development and expansion board (LoPy, Pysense, ...)
+  * Introduction to Raspberry PI
+  * [Setup (TBD)](setup.md)
+  * [Troubleshooting (TBD)](troubleshooting.md)
+
+PYTHON 101
+  * Programming exercise
+  * Python 101 [optional - based on programming exercise outcomes]
+  
+IoT LAB
+ * Typical workflow (connect, run, sync, ...)
+ * LED
+ 
+ ## [Day 2](agenda.md)
+ 
