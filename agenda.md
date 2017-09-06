@@ -23,13 +23,60 @@ TRAINING ENVIRONMENT SETUP
   * [Setup (TBD)](setup.md)
   * [Troubleshooting (TBD)](troubleshooting.md)
 
-PYTHON 101
-  * Programming exercise
-  * Python 101 [optional - based on programming exercise outcomes]
+PYTHON 101 [Does things with stuffs]
+  * Catching up Python for IoT
+  * Python objects
   
-IoT LAB
+IoT LABS
  * Typical workflow (connect, run, sync, ...)
  * LED
  
- ## [Day 2](agenda.md)
+## [Day 2](agenda.md) 
+PRESENTATIONS
+  * Radio propagation and antenna
+
+PYTHON 101
+  * Python statements
+
+IoT LABS
+  * Detecting expansion board button pressure
+  * WIFI: connect to an access point (authenticated or open), measuring RSSI, time sync. with NTP
+  * LoRa mac: connecting two IoT nodes or a node with a gateway
  
+## [Day 3](agenda.md) 
+PRESENTATIONS
+  * Wireless standards for IoT: WiFi, BLE, SigFox, NB-IoT and LoRa
+  * Radio Link Planning with RFBot
+  
+PYTHON 101
+  * Abstraction with functions
+
+IoT LABS
+  * Persisting data on the flash memory or SD card
+  * Sensing temperature, humidity, ... with the Pysense expansion board
+  * LoRa coverage map
+  
+## [Day 4](agenda.md)
+PRESENTATIONS
+  * Message Queue Telemetry Transport (MQTT)
+
+PYTHON 101
+  * Modules and namespaces
+
+IoT LABS
+  * Raspberry PI setup and workflow
+  * MQTT
+  
+## [Day 5](agenda.md)
+PRESENTATIONS
+  * IoT exemple use cases: Temperature Sensing for Legionella Control Showcase (MWCA17), ...
+  
+PYTHON 101
+  * Classes (the basics)
+  * Exploratory Data Analysis (EDA) with Pandas, ...
+
+IoT LABS [WRAP UP USE CASE]
+  * Part I: Sensing with Pysense nodes ▸ Aggregating data with a Raspberry Gateway ▸ Setting up an API
+  * Part II: Fetching and analysing data from a Jupyter Python notebook ▸ Creating a monitoring dashboard
+
+  
