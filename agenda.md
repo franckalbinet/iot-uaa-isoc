@@ -69,13 +69,13 @@ IoT LABS
   
 ## [Day 5](agenda.md)
 PRESENTATIONS
-  * IoT exemple use cases: Temperature Sensing for Legionella Control Showcase (MWCA17), ...
+  * IoT exemple case studies: Temperature Sensing for Legionella Control Showcase (MWCA17), ...
   
 PYTHON 101
   * Classes (the basics)
   * Exploratory Data Analysis (EDA) with Pandas, ...
 
-IoT LABS [WRAP UP USE CASE]
+IoT LABS [Final project]
   * Part I: Sensing with Pysense nodes ▸ Aggregating data with a Raspberry Gateway ▸ Setting up an API
   * Part II: Fetching and analysing data from a Jupyter Python notebook ▸ Creating a monitoring dashboard
 
