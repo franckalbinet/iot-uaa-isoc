@@ -1,4 +1,4 @@
-> [Internet of Things IoT | Training Course](agenda.md) ▸ **Agenda**
+> [Internet of Things (IoT) | Training Course](agenda.md) ▸ **Agenda**
 
 *[Addis Ababa University (UAA)](http://www.aau.edu.et), Ethiopia, 25-29 September 2017*
 
