@@ -1,6 +1,6 @@
-**WiFi**: connecting to a WiFi network
+> [Internet of Things (IoT) | Training Course](WiFi.md) ▸ **WiFi**
 
-# WiFi
+# WiFi: connecting to a WiFi network
 
 ## Introduction
 
