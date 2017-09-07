@@ -4,15 +4,18 @@
 
 ## Introduction
 
-
 ## Learning outcomes
 
+## Setting up the Raspberry LoRa Gateway
+
+Under
+
+```
+pip install flask
+sudo apt-get install python-pandas
+
+
 ## Raspberry PI 3 setup and configuration
-
-1. 
-
-
-
 
 ## Required Components
 
