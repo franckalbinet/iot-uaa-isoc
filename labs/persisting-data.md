@@ -1,6 +1,6 @@
 > [Internet of Things (IoT) | Training Course](persisting-data.md) ▸ **Persisiting data**
 
-# Persisting data: Writing data on `/flash` or `/SD` card in a LoPy device
+# Persisting data: Writing data on `/flash` or `/SD` card
 
 ## Introduction
 While one of the primary purpose of IoT is to collect and exchange data over an inter-connected network, it is as well important to be able to persist information in the IoT device itself: log files of device's activity, Received Signal Strength Activity (RSSI), ...
