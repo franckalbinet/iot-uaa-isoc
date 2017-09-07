@@ -1,4 +1,6 @@
-# MQTT
+> [Internet of Things (IoT) | Training Course](mqtt.md) ▸ **MQTT**
+
+# MQTT (Message Queue Telemetry Transport)
 
 > Building a MQTT broker using a RPi, sending data via WiFi, actuation using MQTT
 
