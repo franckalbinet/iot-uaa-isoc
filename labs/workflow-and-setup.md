@@ -1,4 +1,4 @@
-**Workflow**: Setting up the development Environment and programming workflow
+> [Internet of Things (IoT) | Training Course](workflow-setup.md) ▸ **Workflow and setup**
 
 # Workflow & Setup
 
