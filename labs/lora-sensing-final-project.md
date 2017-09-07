@@ -1,15 +1,14 @@
-> [Internet of Things (IoT) | Training Course](LED.md) ▸ **LED**
+> [Internet of Things (IoT) | Training Course](lora-sensing-final-project.md) ▸ **LoRa sensing | Final project**
 
-# LED: "Hello, world" in the IoT world
+# LoRa sensing | Final project
 
 ## Introduction
 
 In this example, we will create and deploy the proverbial 1st app, “Hello, world!” to a Pycom device. Because the board does not have a display, we will use the USB connection between the board and the development PC to switch on and off an LED. In the simplest terms, a Light-Emitting Diode (LED) is a semiconductor device that emits light when an electric current is passed through it. LEDs are described as solid-state devices. The term solid-state lighting distinguishes this lighting technology from other sources that use heated filaments (incandescent and tungsten halogen lamps) or gas discharge (fluorescent lamps). Different semiconductor materials produce different colors of light. 
 
 
-The LoPy module has one LED as shown on the top in this picture.
 
-![](http://i.imgur.com/K7lEu24.png)
+
 
 The pycom expansion board has also a (smaller) LED shown on the right in the picture. We will use the LED of the LoPy module and will refer to this as the LED.
 
