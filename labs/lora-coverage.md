@@ -1,6 +1,6 @@
-**LoRa coverage**: collecting and mapping RSSI and SNR
+> [Internet of Things (IoT) | Training Course](lora-coverage.md) ▸ **LoRa coverage**
 
-# LoRa coverage
+# LoRa coverage: collecting and mapping RSSI and SNR
 
 ## Introduction
 In this example, we want to produce a LoRA coverage map. The setup is the following:
