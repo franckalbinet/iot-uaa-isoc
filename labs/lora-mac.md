@@ -1,6 +1,6 @@
-**Raw LoRa**: Sending and receiving messages between two nodes
+> [Internet of Things (IoT) | Training Course](lora-mac.md) ▸ **LoRa MAC**
 
-# Raw LoRa (LoRa-MAC)
+# Raw LoRa (LoRa-MAC): : Sending and receiving messages between two nodes
 
 ## Introduction
 In this example, we will **establish a connection between two Lopy nodes in LoRa-MAC mode**, and bypass the LoRaWAN layer (can be mapped to the second and third layer of the OSI model). 
