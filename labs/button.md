@@ -1,6 +1,6 @@
-**Button**: Detecting extension board button pressure
+> [Internet of Things (IoT) | Training Course](button.md) ▸ **Button**
 
-# Button
+# Button: Detecting extension board button pressure
 
 ## Introduction
 
