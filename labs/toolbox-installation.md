@@ -1,6 +1,6 @@
-**Toolbox installation**: Installing Atom, Pymakr plugin, Anaconda and others
+> [Internet of Things (IoT) | Training Course](toolbox-installation.md) ▸ **Toolbox installation**
 
-# Toolbox installation
+# Toolbox installation: Installing Atom, Pymakr plugin, Anaconda and others
 
 ## Atom
 Atom is an Integrated Development Environment (**IDE**), providing convenient features to edit Python code (among many others): syntax highlighting, completion, auto-indentation, integration with Git, bash, ...
