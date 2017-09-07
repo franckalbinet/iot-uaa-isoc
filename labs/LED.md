@@ -1,6 +1,6 @@
 > [Internet of Things (IoT) | Training Course](LED.md) ▸ **LED**
 
-## LED: "HELLO, WORLD" IN THE IoT WORLD
+### LED: "HELLO, WORLD" IN THE IoT WORLD
 
 ## Introduction
 
