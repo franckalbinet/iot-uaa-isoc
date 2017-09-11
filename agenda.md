@@ -38,6 +38,8 @@ PRESENTATIONS
 [PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Python statements
 
+___
+
 [IoT LABS](./labs/2-lab-day-2.md)
   * Detecting expansion board button pressure
   * WIFI: connect to an access point (authenticated or open), measuring RSSI, time sync. with NTP
@@ -51,6 +53,8 @@ PRESENTATIONS
 [PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Abstraction with functions
 
+___
+
 [IoT LABS](./labs/3-lab-day-3.md)
   * Persisting data on the flash memory or SD card
   * Sensing temperature, humidity, ... with the Pysense expansion board
@@ -63,6 +67,8 @@ PRESENTATIONS
 [PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Modules and namespaces
 
+___
+
 [IoT LABS](./labs/4-lab-day-4.md)
   * Raspberry PI setup and workflow
   * MQTT
@@ -74,6 +80,8 @@ PRESENTATIONS
 [PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Classes & decorators: the basics
   * Python for data science, machine learning, and more
+
+___
 
 [IoT LABS | Final project](./labs/5-lab-day-5.md)
   * Part I: Sensing with Pysense nodes ▸ Aggregating data with a Raspberry Gateway ▸ Setting up an API
