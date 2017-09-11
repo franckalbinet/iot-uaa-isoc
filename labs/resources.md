@@ -17,7 +17,7 @@
 * [Visualize Python code: http://pythontutor.com/](http://pythontutor.com/)
 * [Stanford's Numpy tutorial](http://cs231n.github.io/python-numpy-tutorial)
 
-## Data science & machine/deep learning
+## Data science, big data, machine/deep learning
 * [DataCamp](https://www.datacamp.com) - Excellent practical courses (Python, R, SQL) [Paid subscription]
 * [Famous course on Machine Learning given by Andrew Ng on Coursera](https://www.coursera.org/learn/machine-learning) [Paid subscription if you want to get a certificate]
 * [Deep learning specialization on Coursera](https://www.coursera.org/specializations/deep-learning) - simply excellent & using Python [Paid subscription if you want to get a certificate]
