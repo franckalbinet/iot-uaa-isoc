@@ -18,11 +18,11 @@
  * [Some additional resources](./labs/resources.md)
  * [Course setup & troubleshooting](./labs/setup.md)
 
-▸ [PROGRAMMING: PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
+◉ [PROGRAMMING: PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
  * Catching up Python for IoT
  * Python objects, statements, abstractions (function, classes, modules, decorators), data science, ...
 
-▸ [IoT LABS](./labs/1-lab-day-1.md)
+◉ [IoT LABS](./labs/1-lab-day-1.md)
  * Introdution to devices used in this training: Pycom's devices (LoPy, Pysense, ...) & Raspberry PI
  * Typical workflow
  * LED
