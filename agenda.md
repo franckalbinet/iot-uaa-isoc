@@ -24,7 +24,7 @@ TRAINING ENVIRONMENT SETUP
  * Catching up Python for IoT
  * Python objects
   
-[IoT LABS](./labs/1-lab-day-1.md):nut_and_bolt:
+:nut_and_bolt: [IoT LABS](./labs/1-lab-day-1.md)
  * Introdution to devices used in this training: Pycom's devices (LoPy, Pysense, ...) & Raspberry PI
  * Typical workflow
  * LED
