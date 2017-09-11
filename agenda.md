@@ -2,8 +2,8 @@
 
 # Internet of Things Training Course
 *[Addis Ababa University (UAA)](http://www.aau.edu.et), Ethiopia, 25-29 September 2017*
-**Organizer**: [Internet Society (ISOC)](https://www.internetsociety.org)
 
+**Organizer**: [Internet Society (ISOC)](https://www.internetsociety.org)
 
 **Trainer(s)**:
 * **Marco Zennaro**: *Research Officer at the Abdus Salam [International Centre for Theoretical Physics (ICTP)](https://www.ictp.it), Italy*
@@ -11,7 +11,6 @@
 * **Dagmawi Lemma**: *Assistant Professor at Department of Computer Science, Addis Ababa University*
 * **Nesredien Suleiman**: *Lecturer at Addis Ababa University*
 
-___
 
 ## [Day 1](agenda.md)
 #### *INTRODUCTION, PRESENTATIONS & SETUP*
