@@ -15,13 +15,13 @@ INTRODUCTION
  * Opening
  * Presentation of course resources and materials
  * Introduction to IoT
- * [Course resources and materials (TBD)](./labs/resources.md)
+ * [Course resources and materials](./labs/resources.md)
 
 TRAINING ENVIRONMENT SETUP
   * Introdution to Pycom development and expansion board (LoPy, Pysense, ...)
   * Introduction to Raspberry PI
-  * [Setup (TBD)](setup.md)
-  * [Troubleshooting (TBD)](troubleshooting.md)
+  * [Setup](setup.md)
+  * [Troubleshooting](troubleshooting.md)
 
 [PYTHON 101 | "Does things with stuffs"](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
  * Catching up Python for IoT
@@ -35,7 +35,7 @@ TRAINING ENVIRONMENT SETUP
 PRESENTATIONS
   * Radio propagation and antenna
 
-[PYTHON 101(https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
+[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Python statements
 
 [IoT LABS](./labs/2-lab-day-2.md)
@@ -48,7 +48,7 @@ PRESENTATIONS
   * Wireless standards for IoT: WiFi, BLE, SigFox, NB-IoT and LoRa
   * Radio Link Planning with RFBot
   
-[PYTHON 101(https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
+[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Abstraction with functions
 
 [IoT LABS](./labs/3-lab-day-3.md)
@@ -60,7 +60,7 @@ PRESENTATIONS
 PRESENTATIONS
   * Message Queue Telemetry Transport (MQTT)
 
-[PYTHON 101(https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
+[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Modules and namespaces
 
 [IoT LABS](./labs/4-lab-day-4.md)
@@ -71,7 +71,7 @@ PRESENTATIONS
 PRESENTATIONS
   * IoT exemple case studies: Temperature Sensing for Legionella Control Showcase (MWCA17), ...
   
-[PYTHON 101(https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
+[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Classes (the basics)
   * Python for data science, machine learning, and more
 
