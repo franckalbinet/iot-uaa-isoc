@@ -36,6 +36,7 @@ To install the plugin in Atom:
 
 ## Upgrading Pysense board firmware
 Pycom devices are under constant development and improvement. You must make sure you have the latest firmware version installed. 
+
 Firmware upgrading procedure is documented here: https://docs.pycom.io/chapter/pytrackpysense/installation/firmware.html
 
 ## Installing Anaconda
