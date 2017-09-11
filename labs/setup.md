@@ -3,6 +3,7 @@
 # Course setup
 
 [1. Installing Atom editor](#installing-atom-editor)
+
 [2. Installing Atom Pymakr plugin](#installing-atom-pymakr-plugin)
 
 ## Installing Atom editor
