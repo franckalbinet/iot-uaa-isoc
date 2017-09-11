@@ -39,7 +39,7 @@ So in order to not screw up your installation, it is advised to install Anaconda
 
 For our labs, we will use Anaconda version 3.6 https://www.continuum.io/downloads
 
-### OPTIONAL: Creating a new environment using Python 2.7
+### [OPTIONAL]: Creating a new environment using Python 2.7
 
 Once installed (Anaconda with Python version 3.6 by default), we want now to install Python 2.7 as well. To do so:
 
