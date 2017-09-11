@@ -23,11 +23,11 @@ You need to update Pymakr settings every time you want to connect to a new devic
 
    * Open the `Global Settings` tab: click on `Settings ► Global Settings` in Pymakr console
 
-![](https://i.imgur.com/itJeytO.png?1)   
-   
-   * Then identify your USB port: click on `More ► Get serial ports` in Pymakr console
+![](https://i.imgur.com/itJeytO.png?1)
+
+  * Then identify your USB port: click on `More ► Get serial ports` in Pymakr console
   
-![](https://imgur.com/ZkWDMsP)
+![](https://i.imgur.com/ZkWDMsP.png?1)
     
 
     
