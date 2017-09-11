@@ -23,7 +23,7 @@ TRAINING ENVIRONMENT SETUP
   * [Setup (TBD)](setup.md)
   * [Troubleshooting (TBD)](troubleshooting.md)
 
-[PYTHON 101 |Does things with stuffs](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
+[PYTHON 101 | "Does things with stuffs"](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
  * Catching up Python for IoT
  * Python objects
   
@@ -35,7 +35,7 @@ TRAINING ENVIRONMENT SETUP
 PRESENTATIONS
   * Radio propagation and antenna
 
-PYTHON 101
+[PYTHON 101(https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Python statements
 
 [IoT LABS](./labs/2-lab-day-2.md)
@@ -48,7 +48,7 @@ PRESENTATIONS
   * Wireless standards for IoT: WiFi, BLE, SigFox, NB-IoT and LoRa
   * Radio Link Planning with RFBot
   
-PYTHON 101
+[PYTHON 101(https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Abstraction with functions
 
 [IoT LABS](./labs/3-lab-day-3.md)
@@ -60,7 +60,7 @@ PYTHON 101
 PRESENTATIONS
   * Message Queue Telemetry Transport (MQTT)
 
-PYTHON 101
+[PYTHON 101(https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Modules and namespaces
 
 [IoT LABS](./labs/4-lab-day-4.md)
@@ -71,9 +71,9 @@ PYTHON 101
 PRESENTATIONS
   * IoT exemple case studies: Temperature Sensing for Legionella Control Showcase (MWCA17), ...
   
-PYTHON 101
+[PYTHON 101(https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
   * Classes (the basics)
-  * Exploratory Data Analysis (EDA) with Pandas, ...
+  * Python for data science, machine learning, and more
 
 [IoT LABS | Final project](./labs/5-lab-day-5.md)
   * Part I: Sensing with Pysense nodes ▸ Aggregating data with a Raspberry Gateway ▸ Setting up an API
