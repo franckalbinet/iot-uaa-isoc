@@ -86,5 +86,10 @@ So, download it here: https://desktop.github.com/ and install it.
 
 
 ## Troubleshooting
-### USB-serial drivers
+### Windows 7 drivers
+On most platforms, once the Atom Pymakr package installed, you will be in a position to communicate with Pycom devices via the USB port without any issue.
+
+In the case of Windows 7, you will need to install an additional driver. The procedure is documented in Pycom documentation at the following url: https://docs.pycom.io/chapter/pytrackpysense/installation/drivers.html
+
+Alternatively, you can find as well the required driver here [../softs/windows/pycom.inf](../softs/windows/pycom.inf)
 
