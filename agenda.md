@@ -72,7 +72,7 @@ PRESENTATIONS
   * IoT exemple case studies: Temperature Sensing for Legionella Control Showcase (MWCA17), ...
   
 [PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
-  * Classes (the basics)
+  * Classes & decorators: the basics
   * Python for data science, machine learning, and more
 
 [IoT LABS | Final project](./labs/5-lab-day-5.md)
