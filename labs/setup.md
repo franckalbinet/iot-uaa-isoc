@@ -4,13 +4,14 @@
 
 ## Table of content
 
-[1. Installing Atom editor](#Installing Atom editor)
-[2. Installing Atom Pymakr plugin](#Installing Atom Pymakr plugin)
+  [1. Installing Atom editor](#installing-atom-editor)
 
-## 1. Installing Atom editor
+  [2. Installing Atom Pymakr plugin](#installing-atom-pymakr-plugin)
+
+## Installing Atom editor
 
 dfqdsfqsmldkfj 
 qsdfqmsdifh 
 qsdfsqdfmlkh 
 
-## 2. Installing Atom Pymakr plugin
+## Installing Atom Pymakr plugin
