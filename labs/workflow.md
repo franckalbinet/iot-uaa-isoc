@@ -16,56 +16,13 @@ A typical workflow is the following:
 7. Run your code for debugging
 8. Sync your code once done
 
-These steps are illustrated in the following YouTube video: https://www.youtube.com/timedtext_video?v=L1CmWsZlCeU
+These steps are illustrated in the following YouTube video: 
 
-
-1. Open Atom
-
-2. Add a project folder: `top menu ► File ► Add Project Folder...`
-
-![](https://i.imgur.com/Sae3Vrs.png?1)
-
-Select for instance the `src/LED` folder. Make sure that's the only one
-
-3. Plug your device into your USB port
-
-4. Update Pymakr settings (connection via USB or WiFi)
-You need to update Pymakr settings every time you want to connect to a new device or you want to change your connection mode (USB serial or WiFi):
-
-Open the `Global Settings` tab: click on `Settings ► Global Settings` in Pymakr console
-
-![](https://i.imgur.com/itJeytO.png?1)
-
-Then identify your USB port: click on `More ► Get serial ports` in Pymakr console
-  
-![](https://i.imgur.com/UkUaDPx.png?1)
-    
-By now you should be able to:
-
-5. Connect
-
-6. Write your code
-
-7. Run your code for debugging
-
-8. Sync your code once done
-
-### Updating Pymakr settings
+https://www.youtube.com/watch?v=L1CmWsZlCeU
 
 
 
-* **Connect via USB serial**
 
-See Pycom official documentation: https://docs.pycom.io/pycom_esp32/pycom_esp32/toolsandfeatures.html
-
-To connect via USB serial you need to know to determine the serial address in which your Pycom device is connected, you will need to scan for connected devices on your computer.
-
-For Mac user, you can simply run in a terminal the following command: `ls /dev/cu.*`
-
-Alternatively, you can use directly the Pymakr console to get a list of devices: click on the `More` button and `Get Serial ports`.
-
-Once identified your serial device you need to update Pymakr settings. In Pymakr console: 
-`Settings ► Global settings`
 
 
 
