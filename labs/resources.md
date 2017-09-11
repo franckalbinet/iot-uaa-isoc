@@ -27,3 +27,5 @@
 
 ## Others
 * [Git (free and open source distributed version control system) course on Udacity](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+
+> Note: We are not affiliated with any of the initiatives mentionned above
