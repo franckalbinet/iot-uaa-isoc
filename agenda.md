@@ -11,16 +11,14 @@
 * **Nesredien Suleiman**: *Lecturer at Addis Ababa University*
 
 ## [Day 1](agenda.md)
-[INTRODUCTION & PRESENTATIONS]
+[INTRODUCTION, PRESENTATIONS & SETUP]
  * Opening
  * Presentation of course resources and materials
  * Introduction to IoT
  * [Some additional resources](./labs/resources.md)
+ * [Course setup & troubleshooting](./labs/setup.md)
 
-TRAINING ENVIRONMENT SETUP
-  * [Setup & troubleshooting](./labs/setup.md)
-
-[PYTHON 101: "Does things with stuffs"](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
+[PROGRAMMING: PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
  * Catching up Python for IoT
  * Python objects, statements, abstractions (function, classes, modules, decorators), data science, ...
 
