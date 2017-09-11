@@ -11,7 +11,7 @@
 * **Nesredien Suleiman**: *Lecturer at Addis Ababa University*
 
 ## [Day 1](agenda.md)
-▸ INTRODUCTION, PRESENTATIONS & SETUP
+◉ INTRODUCTION, PRESENTATIONS & SETUP
  * Opening
  * Presentation of course resources and materials
  * Introduction to IoT
