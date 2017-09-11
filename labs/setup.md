@@ -10,7 +10,11 @@
 
 [5. Installing Anaconda](#installing-anaconda)
 
-[5. Installing Filezilla](#installing-filezilla)
+[6. Installing GitHub Desktop [optional]](#installing-gitHub-desktop)
+
+[7. Installing Filezilla](#installing-filezilla)
+
+
 
 [6. Troubleshooting](#troubleshooting)
 
@@ -69,6 +73,16 @@ Now, to create a new environment with Python version 2.7:
 FileZilla will be used occasionnaly to synchronize or retrieve file from IoT device via ftp and Wifi of the device itself.
 
 Download the FileZilla ftp client here: https://filezilla-project.org/
+
+## Installing GitHub Desktop
+Git is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. 
+
+GitHub is a web-based Git or version control repository facilitating collaborative software development.
+
+We will cover only the very basics of Git during these labs and will use GitHub Desktop standalone.
+If you want to have a deeper understanding, you can look at this free online course at Udacity: https://www.udacity.com/course/how-to-use-git-and-github--ud775
+
+So, download it here: https://desktop.github.com/ and install it.
 
 
 ## Troubleshooting
