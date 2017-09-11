@@ -6,7 +6,7 @@ In this first lab session, our objectives are:
 2. to get acquainted with the development workflow between Atom editor and Pycom devices (dev, run, sync, ...)
 2. to modify snippet code provided through first simple exercises
 
-There are still modest objectives, but will ensure that we have a solidly grounded environment. Then, we will iteratively build more interesting and fun systems.
+Though still very modest, these objectives will ensure that we have a solidly grounded environment. We will iteratively build more interesting and fun systems throughout the week.
 
 ### Prerequisites
 Before going to the material and exercises, make sure to read and go through the following walkthrough guides:
