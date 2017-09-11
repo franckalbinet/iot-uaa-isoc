@@ -3,6 +3,7 @@
 # Workflow
 
 [1. Pycom typical workflow](#pycom-typical-workflow)
+[2. Resetting your device](#resetting)
 
 ## Pycom typical workflow
 
@@ -20,15 +21,8 @@ These steps are illustrated in the following YouTube video:
 
 https://www.youtube.com/watch?v=L1CmWsZlCeU
 
+Instead you might want to connect to your device via WiFi
 
-
-
-
-
-
-> Note in screenshot above that you can specify a subfolder of your Atom project containing your code (will be seen in lab sessions).
-
-* **Connect via WiFi**
 1. Simply connect your computer to device's WiFi:
 
 ![img/lopy-wifi.png](http://i.imgur.com/7GbsuFk.png)
