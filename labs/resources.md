@@ -18,9 +18,9 @@
 * [Stanford's Numpy tutorial](http://cs231n.github.io/python-numpy-tutorial)
 
 ## Data science & machine/deep learning
-* [DataCamp](https://www.datacamp.com) - Excellent practical courses (Python, R, SQL) [Not free of charge]
-* [Famous course on Machine Learning given by Andrew Ng on Coursera](https://www.coursera.org/learn/machine-learning) [Not free of charge if you want to get a certificate]
-* [Deep learning specialization on Coursera](https://www.coursera.org/specializations/deep-learning) - simply excellent & using Python [Not free of charge if you want to get a certificate]
+* [DataCamp](https://www.datacamp.com) - Excellent practical courses (Python, R, SQL) [Paid subscription]
+* [Famous course on Machine Learning given by Andrew Ng on Coursera](https://www.coursera.org/learn/machine-learning) [Paid subscription if you want to get a certificate]
+* [Deep learning specialization on Coursera](https://www.coursera.org/specializations/deep-learning) - simply excellent & using Python [Paid subscription if you want to get a certificate]
 * [Deep learning courses at Fast.ai](http://course.fast.ai/) - free of charge
 * [https://machinelearningmastery.com/blog/](https://machinelearningmastery.com/blog/)
 
