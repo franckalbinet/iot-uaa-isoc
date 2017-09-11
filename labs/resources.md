@@ -16,6 +16,7 @@
 * [https://www.learnpython.org/](https://www.learnpython.org/)
 * [Visualize Python code: http://pythontutor.com/](http://pythontutor.com/)
 * [Stanford's Numpy tutorial](http://cs231n.github.io/python-numpy-tutorial)
+* [Tutorialspoint website](https://www.tutorialspoint.com/python3/)
 
 ## Data science, big data, machine/deep learning
 * [DataCamp](https://www.datacamp.com) - Excellent practical courses (Python, R, SQL) [Paid subscription]
