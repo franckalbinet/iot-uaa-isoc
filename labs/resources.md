@@ -20,8 +20,8 @@
 ## Data science, big data, machine/deep learning
 * [DataCamp](https://www.datacamp.com) - Excellent practical courses (Python, R, SQL) [Paid subscription]
 * [Famous course on Machine Learning given by Andrew Ng on Coursera](https://www.coursera.org/learn/machine-learning) [Paid subscription if you want to get a certificate]
-* [Deep learning specialization on Coursera](https://www.coursera.org/specializations/deep-learning) - simply excellent & using Python [Paid subscription if you want to get a certificate]
-* [Deep learning courses at Fast.ai](http://course.fast.ai/) - free of charge
+* [Deep learning specialization on Coursera](https://www.coursera.org/specializations/deep-learning) [Paid subscription if you want to get a certificate - this is simply excellent]
+* [Deep learning courses at Fast.ai](http://course.fast.ai/) [Free of charge]
 * [https://machinelearningmastery.com/blog/](https://machinelearningmastery.com/blog/)
 
 
