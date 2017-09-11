@@ -6,7 +6,7 @@
 
 **Trainer(s)**:
 * **Marco Zennaro**: *Research Officer at the Abdus Salam [International Centre for Theoretical Physics (ICTP)](https://www.ictp.it), Italy*
-* **Franck Albinet**: *International IT Consultant, France*
+* **Franck Albinet**: [*International IT Consultant, France*](https://www.linkedin.com/in/franckalbinet)
 * **Dagmawi Lemma**: *Assistant Professor at Department of Computer Science, Addis Ababa University*
 * **Nesredien Suleiman**: *Lecturer at Addis Ababa University*
 
