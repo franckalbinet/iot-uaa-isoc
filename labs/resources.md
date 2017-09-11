@@ -11,9 +11,10 @@
 * [LoRa demystified: https://www.youtube.com/watch?v=hMOwbNUpDQA](https://www.youtube.com/watch?v=hMOwbNUpDQA)
 * [MQTT essentials: http://www.hivemq.com/blog/mqtt-essentials/](http://www.hivemq.com/blog/mqtt-essentials)
 
-
 ## Python
 * [Python 3 official documentation](https://docs.python.org/3)
+* [https://www.learnpython.org/](https://www.learnpython.org/)
+* ...
 
 ## Data science & machine learning
 * [DataCamp](https://www.datacamp.com) - Excellent practical courses (Python, R, SQL) [Not free of charge]
