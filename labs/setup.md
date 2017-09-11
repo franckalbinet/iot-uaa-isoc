@@ -14,9 +14,7 @@
 
 [6. Installing Filezilla](#installing-filezilla)
 
-
-
-[6. Troubleshooting](#troubleshooting)
+[7. Troubleshooting](#troubleshooting)
 
 ## Installing Atom editor
 Atom is an Integrated Development Environment (**IDE**), providing convenient features to edit Python code (among many others): syntax highlighting, completion, auto-indentation, integration with Git, bash, ...
