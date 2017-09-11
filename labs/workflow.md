@@ -29,19 +29,15 @@ Then identify your USB port: click on `More ► Get serial ports` in Pymakr cons
   
 ![](https://i.imgur.com/UkUaDPx.png?1)
     
-
-    
-
-
+By now you should be able to:
 
 5. Connect
+
 6. Write your code
+
 7. Run your code for debugging
+
 8. Sync your code once done
-
-Taking a look at the screenshot below you will notice that the Atom-Pymakr plugin console provides dedicated buttons for most of these tasks:
-
-![img/pymkr-console.png](http://i.imgur.com/cenBljF.png)
 
 ### Updating Pymakr settings
 
