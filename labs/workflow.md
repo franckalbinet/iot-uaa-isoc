@@ -7,6 +7,17 @@
 ## Pycom typical workflow
 
 A typical workflow is the following:
+1. Open Atom
+2. Add a project folder: `top menu ► File ► Add Project Folder...`
+3. Plug your device into your USB port
+4. Update Pymakr settings (connection via USB or WiFi)
+5. Connect
+6. Write your code
+7. Run your code for debugging
+8. Sync your code once done
+
+These steps are illustrated in the following YouTube video: https://www.youtube.com/timedtext_video?v=L1CmWsZlCeU
+
 
 1. Open Atom
 
