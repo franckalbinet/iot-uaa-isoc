@@ -14,6 +14,7 @@ A typical workflow is the following:
 
 ![](https://i.imgur.com/Sae3Vrs.png?1)
 
+Select for instance the `src/LED` folder. Make sure that's the only one
 
 3. Plug your device into your USB port
 
