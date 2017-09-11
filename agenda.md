@@ -18,8 +18,7 @@ INTRODUCTION
  * [Some additional resources](./labs/resources.md)
 
 TRAINING ENVIRONMENT SETUP
-  * Introdution to Pycom development and expansion board (LoPy, Pysense, ...)
-  * Introduction to Raspberry PI
+  * Introdution to devices used in this training: Pycom's devices (LoPy, Pysense, ...) & Raspberry PI
   * [Setup](setup.md)
   * [Troubleshooting](troubleshooting.md)
 
