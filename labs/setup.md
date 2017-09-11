@@ -35,7 +35,8 @@ To install the plugin in Atom:
 ![img/install-pymkr.png](http://i.imgur.com/Of2NTPR.png)
 
 ## Upgrading Pysense board firmware
-Pycom devices are under constant development and improvement. You must make sure you have the latest firmware version installed. Firmware upgrading procedure is documented here: https://docs.pycom.io/chapter/pytrackpysense/installation/firmware.html
+Pycom devices are under constant development and improvement. You must make sure you have the latest firmware version installed. 
+Firmware upgrading procedure is documented here: https://docs.pycom.io/chapter/pytrackpysense/installation/firmware.html
 
 ## Installing Anaconda
 Python comes in different flavours: different versions and different environment of libraries. Moreover, a Python's version is most probably already installed in your machine. 
