@@ -3,6 +3,7 @@
 # Workflow
 
 [1. Pycom typical workflow](#pycom-typical-workflow)
+
 [2. Resetting your device](#resetting)
 
 ## Pycom typical workflow
@@ -52,6 +53,5 @@ then reboot.
 To establish a connection with your device:
 
 1. Connect to device's WiFi
-
 
 ![img/filezilla-settings.png](http://i.imgur.com/SAN02Pa.png)
