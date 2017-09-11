@@ -11,9 +11,6 @@ The LoPy module has one LED as shown on the top in this picture.
 
 ![](https://i.imgur.com/glFA5C0.png?1)
 
-The pycom Pysense board has also a (smaller) LED shown on the right in the picture. We will use the LED of the LoPy module and will refer to this as the LED.
-
-
 ## Learning outcomes
 
 You will learn how to:
