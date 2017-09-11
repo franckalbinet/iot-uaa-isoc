@@ -1,4 +1,4 @@
-> [Internet of Things (IoT) | Training Course](workflow-setup.md) ▸ **Workflow and setup**
+> [Internet of Things (IoT) | Training Course](workflow.md) ▸ **Workflow**
 
 # Workflow & Setup
 
