@@ -10,7 +10,7 @@
 
 [5. Installing Anaconda](#installing-anaconda)
 
-[6. Installing GitHub Desktop [optional]](#installing-gitHub-desktop)
+[6. Installing GitHub Desktop [optional]](#installing-github-desktop)
 
 [7. Installing Filezilla](#installing-filezilla)
 
