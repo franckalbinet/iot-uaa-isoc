@@ -21,11 +21,11 @@ Select for instance the `src/LED` folder. Make sure that's the only one
 4. Update Pymakr settings (connection via USB or WiFi)
 You need to update Pymakr settings every time you want to connect to a new device or you want to change your connection mode (USB serial or WiFi):
 
-**Open the `Global Settings` tab: click on `Settings ► Global Settings` in Pymakr console**
+Open the `Global Settings` tab: click on `Settings ► Global Settings` in Pymakr console
 
 ![](https://i.imgur.com/itJeytO.png?1)
 
-**Then identify your USB port: click on `More ► Get serial ports` in Pymakr console**
+Then identify your USB port: click on `More ► Get serial ports` in Pymakr console
   
 ![](https://i.imgur.com/UkUaDPx.png?1)
     
