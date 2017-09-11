@@ -24,8 +24,8 @@ TRAINING ENVIRONMENT SETUP
   * [Troubleshooting (TBD)](troubleshooting.md)
 
 PYTHON 101 [Does things with stuffs]
-  * Catching up Python for IoT
-  * Python objects
+ * Catching up Python for IoT
+ * Python objects
   
 IoT LABS
  * Typical workflow (connect, run, sync, ...)
