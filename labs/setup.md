@@ -14,7 +14,9 @@
 
 [6. Installing Filezilla](#installing-filezilla)
 
-[7. Troubleshooting](#troubleshooting)
+[7. Downloading course material](#downloading-course-material)
+
+[8. Troubleshooting](#troubleshooting)
 
 ## Installing Atom editor
 Atom is an Integrated Development Environment (**IDE**), providing convenient features to edit Python code (among many others): syntax highlighting, completion, auto-indentation, integration with Git, bash, ...
@@ -87,6 +89,7 @@ If you want to have a deeper understanding, you can look at this free online cou
 
 So, download it here: https://desktop.github.com/ and install it.
 
+## Downloading course material
 
 ## Troubleshooting
 ### Windows 7 drivers
