@@ -8,7 +8,9 @@
 
 [3. Upgrading Pycom boards firmwares](#upgrading-pycom-boards-firmwares)
 
-[4. Troubleshooting](#troubleshooting)
+[4. Installing Filezilla](#installing-filezilla)
+
+[5. Troubleshooting](#troubleshooting)
 
 ## Installing Atom editor
 Atom is an Integrated Development Environment (**IDE**), providing convenient features to edit Python code (among many others): syntax highlighting, completion, auto-indentation, integration with Git, bash, ...
@@ -28,7 +30,12 @@ To install the plugin in Atom:
 
 ![img/install-pymkr.png](http://i.imgur.com/Of2NTPR.png)
 
+## Installing FileZilla
+FileZilla will be used occasionnaly to synchronize or retrieve file from IoT device via ftp and Wifi of the device itself.
+
+Download the FileZilla ftp client here: https://filezilla-project.org/
+
 
 ## Troubleshooting
-
 ### USB-serial drivers
+
