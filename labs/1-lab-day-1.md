@@ -14,5 +14,5 @@ Before going to the material and exercises, make sure to read and go through the
 1. [Setup](setup.md)
 2. [Typical workflow](workflow.md)
 
-### Lab(s) walkthrough
+### Lab session walkthrough(s)
 * [Light-Emitting Diode (LED) blinking](LED.md)
