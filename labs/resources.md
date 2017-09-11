@@ -13,10 +13,12 @@
 
 
 ## Python
+* [Python 3 official documentation](https://docs.python.org/3)
 
-
-## Data analysis
-
+## Data science & machine learning
+* [DataCamp](https://www.datacamp.com) - Excellent practical courses (Python, R, SQL) [Not free of charge]
+* [Famous course on Machine Learning given by Andrew Ng on Coursera](https://www.coursera.org/learn/machine-learning)
+* [Deep learning specialization on Coursera](https://www.coursera.org/specializations/deep-learning) - simply excellent & using Python 
 
 
 
