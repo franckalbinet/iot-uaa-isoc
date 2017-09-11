@@ -28,7 +28,7 @@ PYTHON 101 [Does things with stuffs]
  * Python objects
   
 [IoT LABS](./labs/1-lab-day-1.md)
- * Typical workflow (connect, run, sync, ...)
+ * Typical workflow
  * LED
  
 ## [Day 2](agenda.md) 
@@ -38,7 +38,7 @@ PRESENTATIONS
 PYTHON 101
   * Python statements
 
-IoT LABS
+[IoT LABS](./labs/2-lab-day-2.md)
   * Detecting expansion board button pressure
   * WIFI: connect to an access point (authenticated or open), measuring RSSI, time sync. with NTP
   * LoRa mac: connecting two IoT nodes or a node with a gateway
@@ -51,7 +51,7 @@ PRESENTATIONS
 PYTHON 101
   * Abstraction with functions
 
-IoT LABS
+[IoT LABS](./labs/3-lab-day-3.md)
   * Persisting data on the flash memory or SD card
   * Sensing temperature, humidity, ... with the Pysense expansion board
   * LoRa coverage map
@@ -63,7 +63,7 @@ PRESENTATIONS
 PYTHON 101
   * Modules and namespaces
 
-IoT LABS
+[IoT LABS](./labs/4-lab-day-4.md)
   * Raspberry PI setup and workflow
   * MQTT
   
@@ -75,7 +75,7 @@ PYTHON 101
   * Classes (the basics)
   * Exploratory Data Analysis (EDA) with Pandas, ...
 
-IoT LABS [Final project]
+[IoT LABS | Final project](./labs/5-lab-day-5.md)
   * Part I: Sensing with Pysense nodes ▸ Aggregating data with a Raspberry Gateway ▸ Setting up an API
   * Part II: Fetching and analysing data from a Jupyter Python notebook ▸ Creating a monitoring dashboard
 
