@@ -12,7 +12,7 @@
 
 ## [Day 1](agenda.md)
 INTRODUCTION
- * Opening :mortar_board:
+ * Opening
  * Presentation of course resources and materials
  * Introduction to IoT
  * [Some additional resources](./labs/resources.md)
