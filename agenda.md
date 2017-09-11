@@ -12,10 +12,10 @@
 
 ## [Day 1](agenda.md)
 INTRODUCTION
-  * Opening
-  * Presentation of course resources and materials
-  * Introduction to IoT
-  * [Course resources and materials (TBD)](./labs/resources.md)
+ * Opening
+ * Presentation of course resources and materials
+ * Introduction to IoT
+ * [Course resources and materials (TBD)](./labs/resources.md)
 
 TRAINING ENVIRONMENT SETUP
   * Introdution to Pycom development and expansion board (LoPy, Pysense, ...)
