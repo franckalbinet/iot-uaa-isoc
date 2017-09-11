@@ -6,6 +6,7 @@ In this first lab session, our objectives are:
 2. to get acquainted with the development workflow between Atom editor and Pycom devices (dev, run, sync, ...)
 2. to modify snippet code provided through first simple exercises
 
-### Pre-requisites
+### Prerequisites
 Before going to the material and exercises, make sure to read and go through the following materials:
+
 
