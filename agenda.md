@@ -2,7 +2,11 @@
 
 *[Addis Ababa University (UAA)](http://www.aau.edu.et), Ethiopia, 25-29 September 2017*
 
+___
+
 **Organizer**: [Internet Society (ISOC)](https://www.internetsociety.org)
+
+___
 
 **Trainer(s)**:
 * **Marco Zennaro**: *Research Officer at the Abdus Salam [International Centre for Theoretical Physics (ICTP)](https://www.ictp.it), Italy*
