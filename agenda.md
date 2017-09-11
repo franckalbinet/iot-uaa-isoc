@@ -23,7 +23,9 @@ TRAINING ENVIRONMENT SETUP
 [PYTHON 101: "Does things with stuffs"](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
  * Catching up Python for IoT
  * Python objects
-  
+
+___
+
 [IoT LABS](./labs/1-lab-day-1.md)
  * Introdution to devices used in this training: Pycom's devices (LoPy, Pysense, ...) & Raspberry PI
  * Typical workflow
