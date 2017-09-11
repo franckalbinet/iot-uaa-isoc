@@ -22,7 +22,7 @@ TRAINING ENVIRONMENT SETUP
 
 [PYTHON 101: "Does things with stuffs"](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
  * Catching up Python for IoT
- * Python objects
+ * Python objects, statements, abstractions (function, classes, modules, decorators), data science, ...
 
 [IoT LABS](./labs/1-lab-day-1.md)
  * Introdution to devices used in this training: Pycom's devices (LoPy, Pysense, ...) & Raspberry PI
@@ -34,7 +34,6 @@ PRESENTATIONS
   * Radio propagation and antenna
 
 [PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
-  * Python statements
 
 [IoT LABS](./labs/2-lab-day-2.md)
   * Detecting expansion board button pressure
@@ -47,7 +46,6 @@ PRESENTATIONS
   * Radio Link Planning with RFBot
   
 [PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
-  * Abstraction with functions
 
 [IoT LABS](./labs/3-lab-day-3.md)
   * Persisting data on the flash memory or SD card
@@ -59,7 +57,6 @@ PRESENTATIONS
   * Message Queue Telemetry Transport (MQTT)
 
 [PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
-  * Modules and namespaces
 
 [IoT LABS](./labs/4-lab-day-4.md)
   * Raspberry PI setup and workflow
@@ -70,8 +67,6 @@ PRESENTATIONS
   * IoT exemple case studies: Temperature Sensing for Legionella Control Showcase (MWCA17), ...
   
 [PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
-  * Classes & decorators: the basics
-  * Python for data science, machine learning, and more
 
 [IoT LABS | Final project](./labs/5-lab-day-5.md)
   * Part I: Sensing with Pysense nodes ▸ Aggregating data with a Raspberry Gateway ▸ Setting up an API
