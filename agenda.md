@@ -27,7 +27,7 @@ PYTHON 101 [Does things with stuffs]
  * Catching up Python for IoT
  * Python objects
   
-[IoT LABS](./1-lab-day-1.md)
+[IoT LABS](./labs/1-lab-day-1.md)
  * Typical workflow (connect, run, sync, ...)
  * LED
  
