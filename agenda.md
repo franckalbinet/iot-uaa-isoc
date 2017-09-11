@@ -10,6 +10,8 @@
 * **Dagmawi Lemma**: *Assistant Professor at Department of Computer Science, Addis Ababa University*
 * **Nesredien Suleiman**: *Lecturer at Addis Ababa University*
 
+___
+
 ## [Day 1](agenda.md)
 #### *INTRODUCTION, PRESENTATIONS & SETUP*
  * Opening
