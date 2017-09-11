@@ -23,7 +23,7 @@ TRAINING ENVIRONMENT SETUP
   * [Setup (TBD)](setup.md)
   * [Troubleshooting (TBD)](troubleshooting.md)
 
-PYTHON 101 [Does things with stuffs]
+[PYTHON 101 |Does things with stuffs](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
  * Catching up Python for IoT
  * Python objects
   
