@@ -39,34 +39,34 @@
   * LoRa mac: connecting two IoT nodes or a node with a gateway
  
 ## [Day 3](agenda.md) 
-PRESENTATIONS
+#### *PRESENTATIONS*
   * Wireless standards for IoT: WiFi, BLE, SigFox, NB-IoT and LoRa
   * Radio Link Planning with RFBot
   
-[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
+#### *[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)*
 
-[IoT LABS](./labs/3-lab-day-3.md)
+#### *[IoT LABS](./labs/3-lab-day-3.md)*
   * Persisting data on the flash memory or SD card
   * Sensing temperature, humidity, ... with the Pysense expansion board
   * LoRa coverage map
   
 ## [Day 4](agenda.md)
-PRESENTATIONS
+#### *PRESENTATIONS*
   * Message Queue Telemetry Transport (MQTT)
 
-[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
+#### *[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)*
 
-[IoT LABS](./labs/4-lab-day-4.md)
+#### *[IoT LABS](./labs/4-lab-day-4.md)*
   * Raspberry PI setup and workflow
   * MQTT
   
 ## [Day 5](agenda.md)
-PRESENTATIONS
+#### *PRESENTATIONS*
   * IoT exemple case studies: Temperature Sensing for Legionella Control Showcase (MWCA17), ...
   
-[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
+#### *[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)*
 
-[IoT LABS | Final project](./labs/5-lab-day-5.md)
+#### *[IoT LABS | Final project](./labs/5-lab-day-5.md)*
   * Part I: Sensing with Pysense nodes ▸ Aggregating data with a Raspberry Gateway ▸ Setting up an API
   * Part II: Fetching and analysing data from a Jupyter Python notebook ▸ Creating a monitoring dashboard
 
