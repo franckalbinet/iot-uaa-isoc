@@ -15,7 +15,7 @@ INTRODUCTION
  * Opening
  * Presentation of course resources and materials
  * Introduction to IoT
- * [Some additional resources](./labs/resources.md)
+ * :link:[Some additional resources](./labs/resources.md)
 
 TRAINING ENVIRONMENT SETUP
   * [Setup & troubleshooting](./labs/setup.md)
