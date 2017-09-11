@@ -20,7 +20,7 @@
 * [DataCamp](https://www.datacamp.com) - Excellent practical courses (Python, R, SQL) [Not free of charge]
 * [Famous course on Machine Learning given by Andrew Ng on Coursera](https://www.coursera.org/learn/machine-learning) [Not free of charge if you want to get a certificate]
 * [Deep learning specialization on Coursera](https://www.coursera.org/specializations/deep-learning) - simply excellent & using Python [Not free of charge if you want to get a certificate]
-* (https://machinelearningmastery.com/blog/)[https://machinelearningmastery.com/blog/]
+* [https://machinelearningmastery.com/blog/](https://machinelearningmastery.com/blog/)
 
 
 
