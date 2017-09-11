@@ -2,16 +2,13 @@
 
 # Course setup
 
-## Table of content
+[1. Installing Atom editor](#1.-installing-atom-editor)
+[2. Installing Atom Pymakr plugin](#2.-installing-atom-pymakr-plugin)
 
-  [1. Installing Atom editor](#installing-atom-editor)
-
-  [2. Installing Atom Pymakr plugin](#installing-atom-pymakr-plugin)
-
-## Installing Atom editor
+## 1. Installing Atom editor
 
 dfqdsfqsmldkfj 
 qsdfqmsdifh 
 qsdfsqdfmlkh 
 
-## Installing Atom Pymakr plugin
+## 2. Installing Atom Pymakr plugin
