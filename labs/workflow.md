@@ -8,8 +8,10 @@
 
 A typical workflow is the following:
 
-1. Open Atom
-2. Add a project folder: `top menu ► File ► Add Project Folder...`
+### 1. Open Atom
+### 2. Add a project folder: `top menu ► File ► Add Project Folder...`
+
+
 3. Plug your device into your USB port
 4. Update Pymakr settings (connection via USB or WiFi)
 5. Connect
