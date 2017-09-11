@@ -7,6 +7,7 @@ In this first lab session, our objectives are:
 2. to modify snippet code provided through first simple exercises
 
 ### Prerequisites
-Before going to the material and exercises, make sure to read and go through the following materials:
+Before going to the material and exercises, make sure to read and go through the following walkthrough guides:
 
-
+1. [Setup](setup.md)
+2. [Typical workflow](workflow.md)
