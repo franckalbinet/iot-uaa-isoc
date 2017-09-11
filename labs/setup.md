@@ -6,7 +6,7 @@
 
 [2. Installing Atom Pymakr plugin](#installing-atom-pymakr-plugin)
 
-[3. Upgrading Pycom boards firmwares](#upgrading-pycom-boards-firmwares)
+[3. Upgrading Pycom boards firmwares](#upgrading-pysense-board-firmware)
 
 [4. Installing Anaconda](#installing-anaconda)
 
