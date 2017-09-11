@@ -14,6 +14,7 @@
 ## Python
 * [Python 3 official documentation](https://docs.python.org/3)
 * [https://www.learnpython.org/](https://www.learnpython.org/)
+* [Visualize Python code: http://pythontutor.com/](http://pythontutor.com/)
 * [Stanford's Numpy tutorial](http://cs231n.github.io/python-numpy-tutorial)
 
 ## Data science & machine/deep learning
