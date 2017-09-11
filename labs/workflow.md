@@ -1,55 +1,11 @@
 > [Internet of Things (IoT) | Training Course](workflow.md) ▸ **Workflow**
 
-# Workflow & Setup
+# Workflow
 
-## Upgrading Lopy firmware
-Pycom devices firmware is constantly improving so this is highly recommended to upgrade the firmware regularly: https://docs.pycom.io/pycom_esp32/pycom_esp32/getstarted.html#firmware-upgrades
+[1. Pycom typical workflow](#pycom-typical-workflow)
 
-The firmware includes among others, the micro Python libraries and modules ported specifically for the ESP32 microcontroller.
+## Pycom typical workflow
 
-To upgrade the firmware, the procedure is the following:
-1. first install the firmware upgrader tool available under the `softs/` folder (choose the one for your OS)
-2. disconnect your device from your computer
-3. connect a jumper cable or wire between G23 and GND (on the expansion board)
-4. reconnect the board via USB to your computer
-5. run the Firmware Upgrade tool (select your driver)
-6. remove the G23 to GND jumper cable/wire
-7. reboot the device (button or power off then on)
-
-Below a screenshot of the Firmware Upgrader in action:
-![img/firmware-upgrader.png](http://i.imgur.com/BO7x0nd.png)
-
-
-## Getting Pycom libraries
-> For Pysense and Pytrack boards
-
-This repository contains out of the box examples and Python utility `classes` for Pycom devices (including Pysense and Pytrack).
-
-These libraries: https://github.com/pycom/pycom-libraries are shared on GitHub. 
-
-To download them, there are several options (including downloading them as a `zip` archive) but the preferred way is to clone the repository locally. Then as this repository is frequently updated, we will just need to pull the repo. on a regular basis.
-
-To clone a repository using GitHub Desktop:
-
-**1. Copy the cloning url**
-
-![img/github-cloning.png](http://i.imgur.com/DlC81dL.png)
-
-**2. In GitHub Desktop**
-
-In top menu ► File ► Clone Repository...
-
-Paste the cloning url and specify the local path where you want to save it.
-
-And clone it...
-
-![img/github-desktop-cloning.png](http://i.imgur.com/LkM6asK.png)
-
-On a regular basis, press the `fetch origin` button to get updated version:
-
-![img/fetch-origin-pycom-lib.png](http://i.imgur.com/kZQduaM.png)
-
-## Typical Lopy device workflow
 A typical workflow is the following:
 
 1. Open Atom
@@ -60,7 +16,6 @@ A typical workflow is the following:
 6. Write your code
 7. Run your code for debugging
 8. Sync your code once done
-
 
 Taking a look at the screenshot below you will notice that the Atom-Pymakr plugin console provides dedicated buttons for most of these tasks:
 
