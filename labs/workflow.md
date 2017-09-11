@@ -16,7 +16,18 @@ A typical workflow is the following:
 
 
 3. Plug your device into your USB port
+
 4. Update Pymakr settings (connection via USB or WiFi)
+You need to update Pymakr settings every time you want to connect to a new device or you want to change your connection mode (USB serial or WiFi):
+
+    * First identify your USB port
+    
+You can use directly the Pymakr console to get a list of devices: click on the `More` button and `Get Serial ports`.
+    
+![img/pymkr-settings-details.png](http://i.imgur.com/37CqqVq.png)    
+
+
+
 5. Connect
 6. Write your code
 7. Run your code for debugging
@@ -27,7 +38,7 @@ Taking a look at the screenshot below you will notice that the Atom-Pymakr plugi
 ![img/pymkr-console.png](http://i.imgur.com/cenBljF.png)
 
 ### Updating Pymakr settings
-You need to update Pymakr settings every time you want to connect to a new device or you want to change your connection mode (USB serial or WiFi).
+
 
 
 * **Connect via USB serial**
@@ -43,7 +54,7 @@ Alternatively, you can use directly the Pymakr console to get a list of devices:
 Once identified your serial device you need to update Pymakr settings. In Pymakr console: 
 `Settings ► Global settings`
 
-![img/pymkr-settings-details.png](http://i.imgur.com/37CqqVq.png)
+
 
 > Note in screenshot above that you can specify a subfolder of your Atom project containing your code (will be seen in lab sessions).
 
