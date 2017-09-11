@@ -15,7 +15,7 @@ INTRODUCTION
  * Opening
  * Presentation of course resources and materials
  * Introduction to IoT
- * [Course resources and materials](./labs/resources.md)
+ * [Some additional resources](./labs/resources.md)
 
 TRAINING ENVIRONMENT SETUP
   * Introdution to Pycom development and expansion board (LoPy, Pysense, ...)
