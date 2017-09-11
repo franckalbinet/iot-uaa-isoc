@@ -1,10 +1,7 @@
 > [Internet of Things (IoT) | Training Course](agenda.md) ▸ **Agenda**
 
-___
 
 *[Addis Ababa University (UAA)](http://www.aau.edu.et), Ethiopia, 25-29 September 2017*
-
-___
 
 **Organizer**: [Internet Society (ISOC)](https://www.internetsociety.org)
 
