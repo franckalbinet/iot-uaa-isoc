@@ -18,7 +18,6 @@ INTRODUCTION
  * [Some additional resources](./labs/resources.md)
 
 TRAINING ENVIRONMENT SETUP
-  * Introdution to devices used in this training: Pycom's devices (LoPy, Pysense, ...) & Raspberry PI
   * [Setup & troubleshooting](./labs/setup.md)
 
 [PYTHON 101: "Does things with stuffs"](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)
@@ -26,6 +25,7 @@ TRAINING ENVIRONMENT SETUP
  * Python objects
   
 [IoT LABS](./labs/1-lab-day-1.md)
+ * Introdution to devices used in this training: Pycom's devices (LoPy, Pysense, ...) & Raspberry PI
  * Typical workflow
  * LED
  
