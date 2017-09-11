@@ -19,8 +19,13 @@ A typical workflow is the following:
 
 4. Update Pymakr settings (connection via USB or WiFi)
 You need to update Pymakr settings every time you want to connect to a new device or you want to change your connection mode (USB serial or WiFi):
+   * Open the `Global Settings` tab: click on `Settings ► Global Settings` in Pymakr console
 
-    * First identify your USB port
+![](https://i.imgur.com/Pq8dwJ7.png)   
+   
+   * Then identify your USB port: 
+  
+
     
 You can use directly the Pymakr console to get a list of devices: click on the `More` button and `Get Serial ports`.
     
