@@ -14,6 +14,6 @@ Before going to the material and exercises, make sure to read and go through the
 2. [Typical workflow](workflow.md) - Especially the subfolder syncing section
 
 ### Lab session walkthrough(s)
-1. [Detecting button pressure](button.md) ~ 1 hour
-2. [WiFi](WiFi.md) ~ 1 hour
-3. [LoRa MAC](lora-mac.md) ~ 1 hour
+1. [Detecting button pressure](button.md)
+2. [WiFi](WiFi.md)
+3. [LoRa MAC](lora-mac.md)
