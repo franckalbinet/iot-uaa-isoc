@@ -66,7 +66,7 @@ This is important to note that only one folder/project should be open in Atom wh
 If you want to sync. only one folder to the Pycom device. You must:
 
 1. specify in Settings `Sync Folder` field your subfolder of interest
-2. click `Reconnect (IMPORTANT!)
+2. click `Reconnect` (IMPORTANT!)
 
 Then you will be in a position to sync exclusively the subfolder of interest. The video link below illustrate the process:
 
