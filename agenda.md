@@ -41,7 +41,7 @@
 #### *[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)*
 
 #### *[IoT LABS](./labs/2-lab-day-2.md)*
-  * Detecting expansion board button pressure
+  * Detecting Pysense board button pressure
   * WIFI: connect to an access point (authenticated or open), measuring RSSI, time sync. with NTP
   * LoRa mac: connecting two IoT nodes or a node with a gateway
  
