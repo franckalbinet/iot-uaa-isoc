@@ -4,7 +4,7 @@
 
 ## Introduction
 
-In this example, we will detect the pressure of the button on the Pycom Pysense board. Because the board does not have a keyboard (or mouse), we will use the USB connection between the board and the development PC to detect the pressure of the button.
+In this example, we will detect the pressure of the button on the Pysense board. Because the board does not have a keyboard (or mouse), we will use the USB connection between the board and the development PC to detect the pressure of the button.
  
 The Pysense board has one button as shown at the bottom in the picture below.
 
