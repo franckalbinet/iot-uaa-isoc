@@ -54,7 +54,7 @@ The use case we want to address is the following:
 ```python
 from machine import Pin
 
-button = Pin("G17", mode=Pin.IN, pull=Pin.PULL_UP)
+button = Pin("P14", mode=Pin.IN, pull=Pin.PULL_UP)
 
 is_pressed = False
 
@@ -75,7 +75,7 @@ Let's go through the snippet code above:
 from machine import Pin
 
 # then we create a `pin` object
-button = Pin("G17", mode=Pin.IN, pull=Pin.PULL_UP)
+button = Pin("P14", mode=Pin.IN, pull=Pin.PULL_UP)
 ```
 
 You notice that to create a `Pin` object we need to specify three arguments:
@@ -142,7 +142,7 @@ def handler(pin):
     else:
         pass
 
-btn = Pin("G17", mode=Pin.IN, pull=Pin.PULL_UP)
+btn = Pin("P14", mode=Pin.IN, pull=Pin.PULL_UP)
 btn.callback(Pin.IRQ_FALLING | Pin.IRQ_RISING, handler)
 ```
 Let's unpack the code above:
@@ -209,7 +209,7 @@ class Button:
         else:
             pass
 
-btn = Button('G17')
+btn = Button('P14')
 btn.on()
 ```
 In this implementation, button's state is **encapsulated** in the object itself and we can create various instances (objects) of Button simply by calling `Button('button_id')`. That way we can re-use safely our code.
