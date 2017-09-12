@@ -2,9 +2,10 @@
 
 ## IoT Lab | Day two
 In this second lab session, our objectives are:
-1. 
 
-
+1. to further interact with the device while covering important notions of polling, interrupts handling, ...
+2. to connect the device to an Access Point via WiFi
+3. to establish communication channels between devices via the LoRa modulation format (widely used in the IoT world)
 
 ### Prerequisites
 Before going to the material and exercises, make sure to read and go through the following walkthrough guides:
