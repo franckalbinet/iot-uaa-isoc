@@ -18,19 +18,20 @@ A typical workflow is the following:
 7. Run your code for debugging
 8. Sync your code once done
 
-These steps are illustrated in the following YouTube video: 
+These steps are illustrated in the following video: 
 
 https://www.youtube.com/watch?v=L1CmWsZlCeU
 
-Instead you might want to connect to your device via WiFi
+Instead you might want to connect to your device via WiFi. To do so:
 
-1. Simply connect your computer to device's WiFi:
+1. Remove the serial port name in Pymakr settings `Device address` field and just leave it blank (the default IP address is ok)
+2. Look up Pycom device's WiFi in WiFi access points available
+2. and reconnect.
 
-![img/lopy-wifi.png](http://i.imgur.com/7GbsuFk.png)
+These three steps are illustrated in the following video:
 
-2. Reset Pymakr settings to default (no usb device address)
+https://www.youtube.com/watch?v=w3rnU3dZJ9w&feature=youtu.be
 
-And that's all.
 
 ## Resetting
 They are different ways to reset your device:
@@ -53,5 +54,6 @@ then reboot.
 To establish a connection with your device:
 
 1. Connect to device's WiFi
+2. And reproduce the settings below:
 
 ![img/filezilla-settings.png](http://i.imgur.com/SAN02Pa.png)
