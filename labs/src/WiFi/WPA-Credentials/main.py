@@ -3,7 +3,7 @@ import config
 from network import WLAN
 wlan = WLAN(mode=WLAN.STA, antenna=WLAN.INT_ANT)
 
-print (config.ssid)
+print(config.ssid)
 
 nets = wlan.scan()
 for net in nets:
