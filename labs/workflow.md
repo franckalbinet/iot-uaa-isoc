@@ -61,12 +61,12 @@ To establish a connection with your device:
 ![img/filezilla-settings.png](http://i.imgur.com/SAN02Pa.png)
 
 ## Syncing a subfolder
-This is important to note that only one folder/project should be open in Atom when using the Pymakr package. This said, this main folder can contain subfloder. Let's consider the example below where we open the `button` project/folder containing various subfolders. 
+This is important to note that only one folder/project should be open in Atom when using the Pymakr package. This said, this main folder can contain subfloders. Let's consider the example below where we open the `button` project/folder containing various subfolders. 
 
 If you want to sync. only one folder to the Pycom device. You must:
 
-1. specify in Settings in `Sync Folder` your subfolder of interest
-2. click Reconnect (IMPORTANT!)
+1. specify in Settings `Sync Folder` field your subfolder of interest
+2. click `Reconnect (IMPORTANT!)
 
 Then you will be in a position to sync exclusively the subfolder of interest. The video link below illustrate the process:
 
