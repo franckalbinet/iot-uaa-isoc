@@ -74,15 +74,15 @@ import time
 ```
 First, we import the required modules, the new ones here being:
 
-* [LoRa (class providing a driver for the LoRa network processor in the LoPy)](https://docs.pycom.io/pycom_esp32/library/network.LoRa.html)
-* [socket (providing access to the BSD socket interface.)](https://docs.pycom.io/pycom_esp32/library/usocket.html)
+* [LoRa (class providing a driver for the LoRa network processor in the LoPy)](https://docs.pycom.io/chapter/firmwareapi/pycom/network/lora.html)
+* [socket (providing access to the BSD socket interface.)](https://docs.pycom.io/chapter/firmwareapi/micropython/usocket.html)
 
 
 ```python
 # We create and configure a LoRa object
 lora = LoRa(mode=LoRa.LORA)
 ```
-Mode can be either `LoRa.LORA` or `LoRa.LORAWAN`. Please refer to the [LoRa class documentation](https://docs.pycom.io/pycom_esp32/library/network.LoRa.html) to look at the multiple parameters we can pass (will cover some of them in the exercises).
+Mode can be either `LoRa.LORA` or `LoRa.LORAWAN`. Please refer to the [LoRa class documentation](https://docs.pycom.io/chapter/firmwareapi/pycom/network/lora.html) to look at the multiple parameters we can pass (will cover some of them in the exercises).
 
 
 ```python
