@@ -22,7 +22,7 @@ You will learn how to:
 
 For this example you will need:
 
-- a LoPy or WiPy module
+- a LoPy module plugged into a Pysense board
 - a microUSB cable
 - a development PC
 
