@@ -1,14 +1,14 @@
 > [Internet of Things (IoT) | Training Course](button.md) ▸ **Button**
 
-# Button: Detecting extension board button pressure
+# Button: Detecting Pysense board button pressure
 
 ## Introduction
 
-In this example, we will detect the pressure of the button on the pycom expansion board. Because the board does not have a keyboard (or mouse), we will use the USB connection between the board and the development PC to detect the pressure of the button.
+In this example, we will detect the pressure of the button on the Pysense board. Because the board does not have a keyboard (or mouse), we will use the USB connection between the board and the development PC to detect the pressure of the button.
  
-The expansion board has one button as shown at the bottom in the picture below.
+The Pysense board has one button as shown at the bottom in the picture below.
 
-![lopy-expansion-board.png](http://i.imgur.com/byWzsc2.png)
+![](https://i.imgur.com/rJFDZFc.png?1)
 
 
 ## Learning outcomes
@@ -22,14 +22,14 @@ You will learn how to:
 
 For this example you will need:
 
-- a LoPy or WiPy module
+- a LoPy module plugged into a Pysense board
 - a microUSB cable
 - a development PC
 
 The source code is in the `src/button` directory.
 
 
-> Make sure you press the button on the expansion board (highlighted by a red rectangle in image above) and not the one on the LoPy module (reset button).
+> Make sure you press the button on the Pysense board (highlighted by a red rectangle in image above) and not the one on the LoPy module (reset button).
 
 ## Code
 
@@ -47,14 +47,14 @@ The boot.py file should always start with the above code, so we can run our pyth
 Even for simple program like this one, there are numerous possible implementations. We should aim for a straighforward solution first. Premature optimization or abstraction are common pitfalls. 
 
 The use case we want to address is the following:
-1. when the button of the expansion board is pressed, display a message "Button pressed" **once** in Atom's console;
+1. when the button of the Pysense board is pressed, display a message "Button pressed" **once** in Atom's console;
 2. when released, display a message "Button released" **once**.
 
 ### main.py
 ```python
 from machine import Pin
 
-button = Pin("G17", mode=Pin.IN, pull=Pin.PULL_UP)
+button = Pin("P14", mode=Pin.IN, pull=Pin.PULL_UP)
 
 is_pressed = False
 
@@ -75,11 +75,11 @@ Let's go through the snippet code above:
 from machine import Pin
 
 # then we create a `pin` object
-button = Pin("G17", mode=Pin.IN, pull=Pin.PULL_UP)
+button = Pin("P14", mode=Pin.IN, pull=Pin.PULL_UP)
 ```
 
 You notice that to create a `Pin` object we need to specify three arguments:
-1. pin's `id` `"G17"` - see "Expansion board user manual" in `/labs/references`;
+1. pin's `id` `"P14"` - see Pysense board manual "pysense-pinout-comp.pdf" in `/labs/references`;
 2. pin's mode `Pin.IN` specifying that this is an input
 3. pull method `Pin.PULL_UP` specifying we want a pull-up resistor. Loosely speaking, a pull-up or pull-down resistor will ensure that the pin is in either a high or low state, while also using a low amount of current and as a result prevents unknown state of the input. You can consult this blog post for further information [https://learn.sparkfun.com/tutorials/pull-up-resistors](https://learn.sparkfun.com/tutorials/pull-up-resistors).
 
@@ -142,7 +142,7 @@ def handler(pin):
     else:
         pass
 
-btn = Pin("G17", mode=Pin.IN, pull=Pin.PULL_UP)
+btn = Pin("P14", mode=Pin.IN, pull=Pin.PULL_UP)
 btn.callback(Pin.IRQ_FALLING | Pin.IRQ_RISING, handler)
 ```
 Let's unpack the code above:
@@ -209,7 +209,7 @@ class Button:
         else:
             pass
 
-btn = Button('G17')
+btn = Button('P14')
 btn.on()
 ```
 In this implementation, button's state is **encapsulated** in the object itself and we can create various instances (objects) of Button simply by calling `Button('button_id')`. That way we can re-use safely our code.
