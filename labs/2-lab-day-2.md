@@ -4,7 +4,7 @@
 In this second lab session, our objectives are:
 
 1. to further interact with the device while covering important notions of polling, interrupts handling, ...
-2. to connect the device to an Access Point via WiFi
+2. to connect the device to an Access Point via WiFi (with or without authentication, syncing time via NTP, ...)
 3. to establish communication channels between devices via the LoRa modulation format (widely used in the IoT world)
 
 ### Prerequisites
