@@ -6,7 +6,9 @@
 
 [2. Resetting your device](#resetting)
 
-[3. Syncing a subfolder](#syncing-a-subfolder)
+[3. Fetching data from the Lopy with Filezilla](#fetching-data-from-the-lopy-with-filezilla)
+
+[4. Syncing a subfolder](#syncing-a-subfolder)
 
 ## Pycom typical workflow
 
