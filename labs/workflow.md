@@ -60,7 +60,7 @@ To establish a connection with your device:
 1. open FileZilla
 2. connect to device's WiFi
 3. click to `File ▸ Site Manager`
-4. reproduce the settings
+4. reproduce the settings below
 5. and connect.
 
 ![img/filezilla-settings.png](http://i.imgur.com/SAN02Pa.png)
