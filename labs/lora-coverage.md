@@ -205,6 +205,6 @@ LoRa network connections for both transmitters and receivers should be setup as 
 | 3      | 12                    | 870              |
 
 
-[Pycom LoRa class documentation](https://docs.pycom.io/chapter/firmwareapi/pycom/network/lora.html)
+[Please refer to Pycom LoRa class documentation for further information](https://docs.pycom.io/chapter/firmwareapi/pycom/network/lora.html)
 
 Produce a LoRa coverage map for your location of interest.
