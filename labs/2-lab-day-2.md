@@ -14,6 +14,7 @@ Before going to the material and exercises, make sure to read and go through the
 2. [Typical workflow](workflow.md) - especially the subfolder syncing section
 
 ### Lab session walkthrough(s)
-1. [Persisting data](persisting-data.md)
-2. [Harnessing Pysense's embedded sensors](pysense.md)
-3. [LoRa coverage map](lora-coverage.md)
+1. [Detecting button pressure](button.md)
+2. [WiFi](WiFi.md)
+3. [LoRa MAC](lora-mac.md)
+
