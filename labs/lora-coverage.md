@@ -157,7 +157,7 @@ You can find the source code to be synchronized to your Lopy in the following fo
 
 ## 5. Retrieving logged data from device's via ftp
 
-See [workflow-and-setup.md](workflow-and-setup.md) lab tutorial to set up Filezilla ftp connection to a Pycom device.
+See [workflow.md](workflow.md) tutorial to set up Filezilla ftp connection to a Pycom device and retrieve logged data.
 
 ## 6. A quick and dirty map in a Jupyter notebook
 In `src/lora-coverage/notebooks` you will find a Jupyter notebook named `lora-coverage-map.ipynb`, open it with Anaconda Jupyter notebook using a `Python 2.7` kernel.
