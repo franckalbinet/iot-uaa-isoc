@@ -58,7 +58,7 @@ To check if the broker is running you can use the command:
 sudo netstat -tanlp | grep 1883
 ```
 
-> "tanlp" stands for: tcp, all, numeric, listening, program
+> `-tanlp` options stands for: tcp, all, numeric, listening, program
 
 alternatively use:
 ```shell=bash
@@ -76,9 +76,8 @@ To run the broker execute:
 ```shell=bash
 sudo mosquitto –v
 ```
-:::info
-"-v" stands for "verbose mode" and can be useful at the beginning to see what is going on in the broker. Can be convenient to use a dedicated terminal for the broker to execute in, if the "-v" option is used.
-:::
+
+> "-v" stands for "verbose mode" and can be useful at the beginning to see what is going on in the broker. Can be convenient to use a dedicated terminal for the broker to execute in, if the "-v" option is used.
 
 
 ## Clients for testing
@@ -115,9 +114,7 @@ in the broker terminal, after the new registration messages, you'll also see som
 
 meaning that the broker received the published message and that it forwarded it to the subscribed client. In the terminal where `mosquitto_sub` is executing you'll see the actual message appear.
 
-:::warning
-Try now `mosquitto_pub -t i/love/python -m "Also very well!"`. What happens? Are topics case-sensitive?
-:::
+> Try now `mosquitto_pub -t i/love/python -m "Also very well!"`. What happens? Are topics case-sensitive?
 
 Another useful option of `mosquitto_pub` is the following:
 ```shell 
@@ -158,7 +155,6 @@ There are also various public brokers in Internet, also called `sandboxes`. For 
         * http://www.mqtt-dashboard.com/
         
 we will always access them through the `1883`. Repeat the exercise above with one of these sandboxes (remember to use the `-h` option). Any difference?
-
 
 
 ## Accessing ThingSpeak via MQTT
