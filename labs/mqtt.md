@@ -129,11 +129,11 @@ Now let's experiment with *qos* and *retain*ed messages.
 mosquitto_pub -t i/LOVE/Python -q 2 -m testing
 ```
 
-you'll get:
+You'll get:
 
 ![](https://i.imgur.com/wLqMrev.png)
 
-compare this sequence of messages with the one obtanined with `-q 0` or with `-q 1`.
+Compare this sequence of messages with the one obtanined with `-q 0` or with `-q 1`.
 
 **Retained messages**. Normally if a publisher publishes a message to a topic, and *no one is subscribed* to that topic the message is simply discarded by the broker. If you want your broker to remeber the last published message you'll have to use the ```retain``` option. Only one message is retained per topic. The next message published on that topic replaces the retained message for that topic.
 So try the following cases:
