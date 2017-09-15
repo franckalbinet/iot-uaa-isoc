@@ -57,9 +57,9 @@ To check if the broker is running you can use the command:
 ```shell=bash
 sudo netstat -tanlp | grep 1883
 ```
-:::info
-"tanlp" stands for: tcp, all, numeric, listening, program
-:::
+
+> "tanlp" stands for: tcp, all, numeric, listening, program
+
 alternatively use:
 ```shell=bash
 ps -ef | grep mosquitto
