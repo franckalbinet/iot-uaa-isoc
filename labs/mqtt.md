@@ -135,7 +135,7 @@ You'll get:
 
 Compare this sequence of messages with the one obtanined with `-q 0` or with `-q 1`.
 
-**Retained messages**. Normally if a publisher publishes a message to a topic, and *no one is subscribed* to that topic the message is simply discarded by the broker. If you want your broker to remeber the last published message you'll have to use the ```retain``` option. Only one message is retained per topic. The next message published on that topic replaces the retained message for that topic.
+**Retained messages**. Normally if a publisher publishes a message to a topic, and *no one is subscribed* to that topic the message is simply discarded by the broker. If you want your broker to remember the last published message you'll have to use the ```retain``` option. Only one message is retained per topic. The next message published on that topic replaces the retained message for that topic.
 So try the following cases:
 1. Retain message flag not set, like we did above, and check that the new subscriber doesn’t get the message i.e., no message is received.
 1. Retain message flag set (`-r`) and the new subscriber gets the last message.
