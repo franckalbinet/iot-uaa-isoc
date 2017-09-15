@@ -77,7 +77,7 @@ To run the broker execute:
 sudo mosquitto –v
 ```
 
-> "-v" stands for "verbose mode" and can be useful at the beginning to see what is going on in the broker. Can be convenient to use a dedicated terminal for the broker to execute in, if the "-v" option is used.
+> `-v` option stands for "verbose mode" and can be useful at the beginning to see what is going on in the broker. Can be convenient to use a dedicated terminal for the broker to execute in, if the "-v" option is used.
 
 
 ## Clients for testing
