@@ -217,8 +217,6 @@ def on_message(topic, msg):
     print("topic is: "+str(topic))
     print("msg is: "+str(msg))
 
-### if __name__ == "__main__":
-
 wlan = WLAN(mode=WLAN.STA)
 nets = wlan.scan()
 for net in nets:
