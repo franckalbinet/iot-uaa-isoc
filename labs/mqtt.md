@@ -42,7 +42,7 @@ For our experiments we will use [**Eclipse Mosquitto**](https://projects.eclipse
 ### Installation steps:
 To install the broker and some utilities you need to execute the following steps:
 
-```shell=bash
+```bash
 sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
 sudo apt-get update
 sudo apt-get install mosquitto mosquitto-clients
@@ -54,26 +54,26 @@ Once installed, please take a look at its [`man` page](https://mosquitto.org/man
 ### Managing the broker
 
 To check if the broker is running you can use the command:
-```shell=bash
+```bash
 sudo netstat -tanlp | grep 1883
 ```
 
 > `-tanlp` options stands for: tcp, all, numeric, listening, program
 
 alternatively use:
-```shell=bash
+```bash
 ps -ef | grep mosquitto
 ```
 
 To start and stop its execution use:
-```shell=bash
+```bash
 sudo /etc/init.d/mosquitto start/stop
 ```
 
 if necessary, to avoid that it restarts automatically, do: `sudo stop mosquitto`
 
 To run the broker execute:
-```shell=bash
+```bash
 sudo mosquitto –v
 ```
 
@@ -82,7 +82,7 @@ sudo mosquitto –v
 
 ## Clients for testing
 The broker comes with a couple of useful commands to quickly publish and subscribe to some topic. Their basic syntax is the following. 
-```shell
+```bash
 mosquitto_sub -h HOSTNAME -t TOPIC
 mosquitto_pub -h HOSTNAME -t TOPIC -m MSG
 ```
@@ -97,7 +97,7 @@ This way you'll control what your broker is doing.
 
 
 Let's start with a easy one. In one terminal write:
-```shell
+```bash
 mosquitto_sub -t i/LOVE/Python
 ```
 the broker terminal should show something like:
@@ -105,7 +105,7 @@ the broker terminal should show something like:
 ![](https://i.imgur.com/5nMOywi.png)
 
 the broker registered the subscription request of the new client. Now in another terminal, execute:
-```shell
+```bash
 mosquitto_pub -t i/LOVE/Python -m "Very well!"
 ```
 in the broker terminal, after the new registration messages, you'll also see something like:
@@ -117,7 +117,7 @@ meaning that the broker received the published message and that it forwarded it 
 > Try now `mosquitto_pub -t i/love/python -m "Also very well!"`. What happens? Are topics case-sensitive?
 
 Another useful option of `mosquitto_pub` is the following:
-```shell 
+```bash 
 mosquitto_pub -t i/LOVE/Python -l
 ```
 it sends messages read from stdin, splitting separate lines into separate messages. Note that blank lines won't be sent. Give it a try.
@@ -125,7 +125,7 @@ it sends messages read from stdin, splitting separate lines into separate messag
 Now let's experiment with *qos* and *retain*ed messages.
 
 **qos (Quality of Service)**. Adding the `-q` option, for example to the `mosquitto_pub` you'll see the extra message that are now interchanged with the broker. For example, doing:
-```shell
+```bash
 mosquitto_pub -t i/LOVE/Python -q 2 -m testing
 ```
 
@@ -187,7 +187,6 @@ https://es.mathworks.com/help/thingspeak/publishtoachannelfieldfeed.html and usi
 
 ## Installing the MQTT client library in the LoPy
 
-
 The LoPy devices require a MQTT library to write the client application. The code can be found here: https://github.com/pycom/pycom-libraries/tree/master/lib/mqtt
 
 You basically need to download the `mqtt.py` file and copy it in the `/flash/lib` directory of the device. 
@@ -197,7 +196,7 @@ You basically need to download the `mqtt.py` file and copy it in the `/flash/lib
 The code below represent a simple subscriber. As a first step it connects to the WiFi network available in the lab; you will have to properly configure the values to connect to your Wi-Fi access point.
 In this case we will use the broker `test.mosquitto.org` but you can use the one on the Raspberry Pi.
 
-```python=
+```python
 from network import WLAN
 from mqtt import MQTTClient
 from machine import idle
@@ -243,7 +242,7 @@ while 1:
 ```
 
 Now, in a terminal on your Raspberry Pi, type the command:
-```shell=bash
+```bash
 mosquitto_pub -h test.mosquitto.org -t "lopy/sensor" -m "666"
 ```
 
@@ -253,7 +252,7 @@ What happens? Please, analyze the structure of the code. See the differences wit
 
 Let's produce some random data.  Copy the code below in your LoPy:
 
-```python=
+```python
 from network import WLAN
 from mqtt import MQTTClient
 import machine
@@ -332,7 +331,7 @@ Let's control the color of the LoPy's LED using MQTT.
 * Code “p1”: 
     * Have the LoPy receive "instructions" on the color that its LED has to show. The LoPy will be connected to its local broker in the Raspberry Pi.
 	* To control the LED you can use the following code:
-```python=
+```python
     if msg == b'GREEN':
         pycom.rgbled(0x007f00) # green
     elif msg == b'RED':
@@ -346,7 +345,6 @@ Let's control the color of the LoPy's LED using MQTT.
 	* You can use `mosquitto_pub`. Define the command required to change the color or turn off  the LED of the LoPy of a group next to you.
 
 
-
 ## The second
 ![Test 2 scheme](https://i.imgur.com/YHhxqVD.png=400x400)
 
@@ -357,7 +355,7 @@ For this exercise you have to use a unique   ("common") broker. It could either 
     * To get data from the PySense's sensors, you can extend the code of the function `get_data_from_sensor` we used before or, if the PySense is not available, use it as-is. 
 
 
-```python=
+```python
 def random_in_range(l=0,h=1000):
     r1 = ucrypto.getrandbits(32)
     r2 = ((r1[0]<<24)+(r1[1]<<16)+(r1[2]<<8)+r1[3])/4294967295.0
