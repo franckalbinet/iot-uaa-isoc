@@ -1,4 +1,4 @@
-> [Internet of Things (IoT) | Training Course](4-day-lab-4.md) ▸ **Labs day 4**
+> [Internet of Things (IoT) | Training Course](4-lab-day-4.md) ▸ **Labs day 4**
 
 ## IoT Lab | Day four
 This is an MQTT's day. MQTT stands for "Message Queue Telemetry Transport". This is a publish-subscribe-based "lightweight" messaging protocol. 
