@@ -209,7 +209,6 @@ wifi_passwd = "__YOUR_PW__"
 broker_addr = "test.mosquitto.org"
 MYDEVID = "PM"
 
-
 def settimeout(duration):
    pass
 
