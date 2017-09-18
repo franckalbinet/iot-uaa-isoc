@@ -238,10 +238,9 @@ if not client.connect():
 client.set_callback(on_message)
 client.subscribe('lopy/sensor')
 
-print('Waiting messages...')
+print('Checking messages...')
 while 1:
-    client.wait_msg()
-
+    client.check_msg()
 ```
 
 Now, in a terminal on your Raspberry Pi, type the command:
