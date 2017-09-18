@@ -10,6 +10,7 @@
 ## IoT
 * [LoRa demystified: https://www.youtube.com/watch?v=hMOwbNUpDQA](https://www.youtube.com/watch?v=hMOwbNUpDQA)
 * [MQTT essentials: http://www.hivemq.com/blog/mqtt-essentials/](http://www.hivemq.com/blog/mqtt-essentials)
+* [Idempotency and REST](http://www.restapitutorial.com/lessons/idempotency.html) [or how to explain idempotency with cows!]
 
 ## Python
 * [Python 3 official documentation](https://docs.python.org/3)

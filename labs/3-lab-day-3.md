@@ -3,9 +3,9 @@
 ## IoT Lab | Day three
 In this third lab session, our objectives are:
 
-1. to further interact with the device while covering important notions of polling, interrupts handling, ...
-2. to connect the device to an Access Point via WiFi
-3. to establish communication channels between devices via the LoRa modulation format (widely used in the IoT world)
+1. to log/persist data into the device itself (for further use: debugging, tracking location, ...)
+2. to measure data such as acceleration, temperature, humidity and to realize how simple (or not) it is!
+3. to create a LoRa coverage map using two LoPys (one receiver and one transmitter) and and Android phone GPS-enabled 
 
 ### Prerequisites
 Before going to the material and exercises, make sure to read and go through the following walkthrough guides:

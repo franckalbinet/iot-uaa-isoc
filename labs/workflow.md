@@ -57,10 +57,17 @@ then reboot.
 
 To establish a connection with your device:
 
-1. Connect to device's WiFi
-2. And reproduce the settings below:
+1. open FileZilla
+2. connect to device's WiFi
+3. click to `File ▸ Site Manager`
+4. reproduce the settings below
+5. and connect (password is: `python`)
 
 ![img/filezilla-settings.png](http://i.imgur.com/SAN02Pa.png)
+
+These steps are illustrated in the following video: 
+
+https://www.youtube.com/watch?v=8bHJWAezaB0&feature=youtu.be
 
 ## Syncing a subfolder
 This is important to note that only one folder/project should be open in Atom when using the Pymakr package. This said, this main folder can contain subfloders. Let's consider the example below where we open the `button` project/folder containing various subfolders. 
