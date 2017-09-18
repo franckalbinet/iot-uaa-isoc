@@ -12,4 +12,4 @@ Before going to the material and exercises, make sure to read and go through the
 2. [Typical workflow](workflow.md) - especially the subfolder syncing section
 
 ### Lab session walkthrough(s)
-* [MQTT6](MQTT.md)
+* [MQTT](MQTT.md)
