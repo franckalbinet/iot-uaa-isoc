@@ -20,7 +20,9 @@ An example use case might be a farm where you deploy dozens of sensors to monito
 This lab. will allow to recap most of the components seen so far in a realistic use case. Once the base/reference architecture implemented, you will be asked to further improve it for instance by adding a simple notification system or any ideas you might consider relevant and use your creativity.
 
 ## LoRa node setup
-...
+We will start with the LoRa node setup. This is pretty straighforward as this is something we have seen already. We will just access Pycom's Pysense Python lib to get measurements and send it as LoRa packets.
+
+You will find the source code in the following folder: [`src/lora-sensing-final-project`](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/labs/src/lora-sensing-final-project)
 
 ## Setting up the Raspberry LoRa Gateway
 
