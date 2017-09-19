@@ -5,7 +5,7 @@
 ## Introduction
 In this lab. we will consider the following setup:
 
-![](https://i.imgur.com/OV1b5aH.png)
+![](https://i.imgur.com/IFUVNLc.png)
 
 where:
 * LoPys on Pysense boards will make measurements and send it over LoRa;
