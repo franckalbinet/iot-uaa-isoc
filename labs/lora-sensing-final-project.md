@@ -5,7 +5,7 @@
 ## Introduction
 In this lab. we will consider the following setup:
 
-![](https://i.imgur.com/fMcf60w.png?1)
+![](https://i.imgur.com/OV1b5aH.png)
 
 
 ## Learning outcomes
