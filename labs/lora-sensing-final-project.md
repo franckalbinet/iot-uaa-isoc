@@ -17,7 +17,7 @@ To be clear, again, communication between IoT nodes (Lopys + Pysense expansion b
 An example use case might be a farm where you deploy dozens of sensors to monitor temperature, humidity, soil moisture, CO2, ... in agricultural fields, aggregate the measurements in a Gateway and then analyze, monitor, decide using analytical platforms (here Jupyter Notebooks and Python).
 
 ## Learning outcomes
-
+This lab. will allow to recap most of the components seen so far in a realistic use case. Once the base/reference architecture implemented, you will be asked to further improve it for instance by adding a simple notification system or any ideas you might consider relevant and use your creativity.
 
 ## LoRa node setup
 ...
