@@ -7,8 +7,17 @@ In this lab. we will consider the following setup:
 
 ![](https://i.imgur.com/OV1b5aH.png)
 
+where:
+* LoPys on Pysense boards will make measurements and send it over LoRa;
+* then Raspberry Pi and its LoRa expansion receiving it will serve them through an API;
+* last, client machine(s) will fetch measurements via the API and anlyse it (using Jupyter Notebooks).
+
+To be clear, again, communication between IoT nodes (Lopys+expansion board) and the Raspberry used as a LoRa gateway will be ensured via LoRa. As regards, communication between the client machines will be ensured via WiFi in a LAN. 
+
+An example use case might be a farm where you deploy dozens of sensors to monitor temperature, humidity, soi moisture, CO2, ... in agricultural fields, aggregate the measurements in a Gateway and then analyse, monitor, decide using analytical platform.
 
 ## Learning outcomes
+
 
 ## LoRa node setup
 ...
