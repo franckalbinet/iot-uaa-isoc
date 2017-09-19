@@ -3,6 +3,10 @@
 # LoRa sensing | Final project
 
 ## Introduction
+In this lab. we will consider the following setup:
+
+![](https://i.imgur.com/fMcf60w.png?1)
+
 
 ## Learning outcomes
 
