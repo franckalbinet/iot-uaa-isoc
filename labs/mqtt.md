@@ -25,7 +25,7 @@ The various elements are supposed to be connected as indicated in the figure bel
 
 For the next steps you will use one or more terminals (e.g., `xterm`)  connected to your Raspberry Pi via `ssh -X`.
 
-[Optional] If you want to reproduce Raspberry PI installation we are using you can refer to the following tutorial [setting-up-a-raspberry.md](setting-up-a-raspberry.md)
+> [Optional] If you want to reproduce Raspberry PI installation we are using you can refer to the following tutorial [setting-up-a-raspberry.md](setting-up-a-raspberry.md)
 
 ## Installing the MQTT broker
 
