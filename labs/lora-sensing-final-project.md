@@ -56,7 +56,7 @@ Python ecosystem includes many packages for data analysis, machine learning and 
 
 A Jupyter notebook is provided here: [`src/lora-sensing-final-project/notebooks/1-intro-to-pandas.md`](src/lora-sensing-final-project/notebooks/1-intro-to-pandas.md)
 
-Launch `Anaconda` and the 'Jupyter` notebook.
+Launch `Anaconda` and the `Jupyter` notebook.
 
 ## LoRa node setup
 We will start with the LoRa node setup. This is pretty straighforward as this is something we have seen already. We will just access Pycom's Pysense Python lib to get measurements and send it as LoRa packets.
