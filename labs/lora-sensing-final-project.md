@@ -136,13 +136,14 @@ while True:
 Take a few moments to review the code provided. At this stage of the training should not be too challenging.
 
 ## Setting up the Raspberry LoRa Gateway
+> [Optional] If you want to reproduce Raspberry PI installation we are using, you can refer to the following tutorial [setting-up-a-raspberry.md](setting-up-a-raspberry.md)
 
 The Raspberry Pi will be used in that setup as a LoRa Gateway.
 
+To run the LoRa Gateway you will have to:
 
-
-
-To run the LoRa Gateway, in  `/raspi-lora-gateway` folder run the following command: `sudo ./gateway`
+1. connect via SSH to the Raspberry
+2. run the following command: `sudo ./gateway` in `/raspi-lora-gateway` folder
 
 
 ## Setting up the Flask API
@@ -204,7 +205,8 @@ def get_data():
     return jsonify(data_df.T.to_dict().values())
 ```
 
-## Raspberry PI 3 setup and configuration
+Let's analyse it:
+
 
 
 
