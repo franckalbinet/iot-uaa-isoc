@@ -2,6 +2,24 @@
 
 # LoRa sensing | Final project
 
+## Table of content
+
+[1. Introduction](#introduction)
+
+[2. Learning outcomes](#learning-outcomes)
+
+[3. Required components](#required-components)
+
+[4. Introduction to data analysis with Pandas](#introduction-to-data-analysis-with-python)
+
+[5. LoRa node setup](#lora-node-setup)
+
+[6. Setting up the Raspberry LoRa Gateway](#setting-up-the-raspberry-lora-gateway)
+
+[7. Setting up the Flask API](#setting-up-the-flask-api)
+
+[8. Exercises](#exercises)
+
 ## Introduction
 In this lab. we will consider the following setup:
 
@@ -30,6 +48,9 @@ For this example you will need:
 - a Raspberry LoRa expansion board
 
 The source code is in the [`src/lora-sensing-final-project`](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/labs/src/lora-sensing-final-project) directory.
+
+## Introduction to data analysis with Python
+Our ultimate goal in that lab. is to monitor/analyse data collected in the field, conveyed over LoRa and fetched from an API into a Jupyter notebook.
 
 ## LoRa node setup
 We will start with the LoRa node setup. This is pretty straighforward as this is something we have seen already. We will just access Pycom's Pysense Python lib to get measurements and send it as LoRa packets.
@@ -206,6 +227,8 @@ def get_data():
 ```
 
 Let's analyse it:
+
+## Exercises
 
 
 
