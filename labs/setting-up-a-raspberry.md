@@ -25,7 +25,7 @@ Ubuntu Mate can be downloaded here: https://ubuntu-mate.org/raspberry-pi/ This l
 The steps below outline how to do so under MAC OSX (http://terraltech.com/copying-an-image-to-the-sd-card-in-mac-os-x/):
 
 ```console
-/* Install .xz unarchiver*/
+# Install .xz unarchiver
 brew install xz
 
 # Unarchive
@@ -35,7 +35,7 @@ xz -d ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz
 # First without connecting the SD card to USB, list devices
 df -h
 
-/* Connect your SD card and noticed the added device in the list: for instance: "/dev/disk1s1"*/
+# Connect your SD card and noticed the added device in the list: for instance: "/dev/disk1s1"
 df -h
 
 # Unmount the partition so that you will be allowed to overwrite the disk
