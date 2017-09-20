@@ -4,19 +4,19 @@
 ## Setting up a Raspberry PI 3
 This tutorial is optional and will outline the installation required steps including:
 
-[1. copying an Ubuntu Mate image to an SD card](#copying-the-ubuntu-mate-image)
+[1. Copying an Ubuntu Mate image to an SD card](#copying-the-ubuntu-mate-image)
 
-[2. installing Ubuntu Mate](#installing-ubuntu-mate)
+[2. Installing Ubuntu Mate](#installing-ubuntu-mate)
 
-[3. enabling SSH](#enabling-ssh)
+[3. Enabling SSH](#enabling-ssh)
 
-[4. identifying IP address]()
+[4. Identifying IP address]()
 
-[5. installing Mosquitto MQTT (clients, publishers and broker)]()
+[5. Installing Mosquitto MQTT (clients, publishers and broker)]()
 
-[6. setting up a LoRa Gateway (with LoRa expansion board)]()
+[6. Setting up a LoRa Gateway (with LoRa expansion board)]()
 
-[7. setting up a Flask API]()
+[7. Setting up a Flask API]()
 
 ## Copying the Ubuntu Mate image
 
@@ -61,9 +61,11 @@ sudo diskutil eject /dev/rdisk1
 3. Follow instructions of the installation steps wizard
 
 ## Enabling SSH
-To enable SSH, open a terminal `right-click`
+To enable SSH, open a terminal `right-click ▸ Open in Terminal` and run the `raspi-config` utility:
 
-sudo raspi-config
+`sudo raspi-config`
+
+Then navigate with keyboard arrows to `Ìnterfacing Options ▸ SSH ▸ Enable`
 
 
 
