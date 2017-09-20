@@ -10,7 +10,7 @@ This tutorial is optional and will outline the installation required steps inclu
 
 [3. Enabling SSH](#enabling-ssh)
 
-[4. Identifying IP address]()
+[4. Identifying IP address](#identifying-the-ip-address)
 
 [5. Installing Mosquitto MQTT (clients, publishers and broker)]()
 
@@ -67,6 +67,9 @@ To enable SSH, open a terminal `right-click ▸ Open in Terminal` and run the `r
 
 Then navigate with keyboard arrows to `Ìnterfacing Options ▸ SSH ▸ Enable`
 
+## Identifying the IP address
+Simply run:
 
+`ifconfig` or `hostname -I`
 
 
