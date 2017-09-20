@@ -94,6 +94,7 @@ sudo apt-get update
 # Install mosquitto
 sudo apt-get install mosquitto mosquitto-clients
 
+
 ## Setting up a LoRa gateway
 This step requires to get a LoRa expansion board, for instance this one: https://store.uputronics.com/index.php?route=product/product&path=61&product_id=68
 
