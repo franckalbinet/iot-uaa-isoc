@@ -18,6 +18,8 @@ This tutorial is optional and will outline the installation required steps inclu
 
 [7. Setting up a Flask API](#setting-up-a-flask-api)
 
+[8. Running the LoRa gateway and API](#running-the-lora-gateway-and-api)
+
 ## Copying the Ubuntu Mate image
 
 Ubuntu Mate can be downloaded here: https://ubuntu-mate.org/raspberry-pi/ This link also includes guidance on how to extract and copy the image to an SD card using for instance Win32 Disk Imager if you are using a Windows OS. This video shows how to use Win32 Disk Imager: https://www.youtube.com/watch?v=WCrNIyhPXcs
@@ -128,6 +130,16 @@ Exemple:
 ```
 /iot 
    - /raspi-lora-gateway
-   - /flask-api
+   - /flask-api
+```
 
+Last, install `Flask` Python micro framework for web development http://flask.pocoo.org/:
+```
+pip install flask
+sudo apt-get install python-pandas
+```
+and set the FLASK_APP environment variable:
+`export FLASK_APP=api.py`
 
+## Running the LoRa gateway and API
+The tutorial: [lora-sensing-final-project.md](lora-sensing-final-project.md) describes how to use the LoRa gateway.
