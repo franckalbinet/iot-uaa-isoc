@@ -14,9 +14,9 @@ This tutorial is optional and will outline the installation required steps inclu
 
 [5. Installing Mosquitto MQTT (clients, publishers and broker)](#installing-mosquitto)
 
-[6. Setting up a LoRa Gateway (with LoRa expansion board)](setting-up-a-lora-gateway)
+[6. Setting up a LoRa Gateway (with LoRa expansion board)](#setting-up-a-lora-gateway)
 
-[7. Setting up a Flask API]()
+[7. Setting up a Flask API](#setting-up-a-flask-api)
 
 ## Copying the Ubuntu Mate image
 
@@ -110,13 +110,24 @@ Then navigate with keyboard arrows to `Ìnterfacing Options ▸ SPI ▸ Enable`
 `SPI` stands for Serial Peripheral Interface Bus: https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus
 
 ### Installing LoRa gateway code
-To use the Raspberry as a LoRa gateway you need to copy and run the following code source:
+To use the Raspberry as a LoRa gateway you need to copy the folder named `raspi-lora-gateway`:
 [`src/lora-sensing-final-project`](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/labs/src/lora-sensing-final-project)
 
 Using `scp`, copy the folder `raspi-lora-gateway` to the Raspberry.
 
 Last, ensure that the following libraries are installed:
+
 `sudo apt-get install git wiringpi libcurl4-openssl-dev libncurses5-dev`
 
-### Installing LoRa gateway code
+## Setting up a Flask API
+Last, to install an API providing access to the LoRa packets received by the LoRa gateway over HTTP, you need to copy the following folder `flask-api` to the Raspberry Pi. 
+
+Important: this folder should be in same folder (at the same level) than `raspi-lora-gateway` one. 
+
+Exemple:
+
+/iot 
+   - /raspi-lora-gateway
+   - /flask-api
+
 
