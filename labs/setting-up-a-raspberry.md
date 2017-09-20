@@ -12,7 +12,7 @@ This tutorial is optional and will outline the installation required steps inclu
 
 [4. Identifying IP address](#identifying-the-ip-address)
 
-[5. Installing Mosquitto MQTT (clients, publishers and broker)]()
+[5. Installing Mosquitto MQTT (clients, publishers and broker)](#installing-mosquitto)
 
 [6. Setting up a LoRa Gateway (with LoRa expansion board)]()
 
@@ -68,8 +68,29 @@ To enable SSH, open a terminal `right-click ▸ Open in Terminal` and run the `r
 Then navigate with keyboard arrows to `Ìnterfacing Options ▸ SSH ▸ Enable`
 
 ## Identifying the IP address
-Simply run:
+To identify Raspberry PI IP address, simply:
 
 `ifconfig` or `hostname -I`
 
+You can then, use SSH to interact remotely with your Raspberry Pi from your machine. For instance, `ssh 192.168.1.102 -l user_name`
+
+Tip: if you want to switch off remotely your Raspberry over SSH, you can run:
+`sudo poweroff`
+
+# Installing Mosquitto
+
+```console
+# Install repository
+sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
+
+# Remove the lock files in case of following error:
+# "E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+# E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?"
+sudo rm /var/lib/apt/lists/lock && sudo rm /var/lib/dpkg/lock
+
+* Update repository
+sudo apt-get update
+
+# Install mosquitto
+sudo apt-get install mosquitto mosquitto-clients
 
