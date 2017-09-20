@@ -24,7 +24,7 @@ Ubuntu Mate can be downloaded here: https://ubuntu-mate.org/raspberry-pi/ This l
 
 The steps below outline how to do so under MAC OSX (http://terraltech.com/copying-an-image-to-the-sd-card-in-mac-os-x/):
 
-```make
+```console
 # Install .xz unarchiver
 brew install xz
 
