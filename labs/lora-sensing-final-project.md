@@ -212,7 +212,6 @@ def get_data():
 
 ## Raspberry PI 3 setup and configuration
 
-## Required Components
 
 
 
