@@ -125,7 +125,7 @@ Last, to install an API providing access to the LoRa packets received by the LoR
 Important: this folder should be in same folder (at the same level) than `raspi-lora-gateway` one. 
 
 Exemple:
-
+```
 /iot 
    - /raspi-lora-gateway
    - /flask-api
