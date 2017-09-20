@@ -14,6 +14,8 @@
 
 [6. Installing Filezilla](#installing-filezilla)
 
+[7. Installing PuTTY](#installing-putty)
+
 [7. Downloading course material](#downloading-course-material)
 
 [8. Troubleshooting](#troubleshooting)
@@ -88,6 +90,12 @@ We will cover only the very basics of Git during these labs and will use GitHub 
 If you want to have a deeper understanding, you can look at this free online course at Udacity: https://www.udacity.com/course/how-to-use-git-and-github--ud775
 
 So, download it here: https://desktop.github.com/ and install it.
+
+## Installing PuTTY
+PuTTY will be used to initiate SSH communication with a Raspberry PI. If you have a machine with OSX or Linux installed you can use directly the `ssh` program available in a terminal. If you have a Windows machine, you can use PuTTY instead.
+
+You can download PuTTY using this link: http://www.putty.org and install it (download the installer and double click on it).
+
 
 ## Downloading course material
 
