@@ -29,6 +29,7 @@
 
 ## Others
 * [Git (free and open source distributed version control system) course on Udacity](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+* [Linux command line basics at Udacity](https://www.udacity.com/course/linux-command-line-basics--ud595) [Free of charge]
 
 
 > Note: None of us is affiliated with any of the initiatives mentionned above
