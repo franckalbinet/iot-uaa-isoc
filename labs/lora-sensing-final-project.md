@@ -54,7 +54,9 @@ Our ultimate goal in that lab. is to monitor/analyse data collected in the field
 
 Python ecosystem includes many packages for data analysis, machine learning and deep learning. In Python data science, **Pandas** http://pandas.pydata.org is a must. We will use Pandas package for both data analysis and the Flask API (see below).
 
-A Jupyter notebook is provided here: [src/
+A Jupyter notebook is provided here: [src/lora-sensing-final-project/notebooks/1-intro-to-pandas.md)(src/lora-sensing-final-project/notebooks/1-intro-to-pandas.md)
+
+Launch `Anaconda` and the 'Jupyter` notebook.
 
 ## LoRa node setup
 We will start with the LoRa node setup. This is pretty straighforward as this is something we have seen already. We will just access Pycom's Pysense Python lib to get measurements and send it as LoRa packets.
