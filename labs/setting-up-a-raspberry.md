@@ -14,7 +14,7 @@ This tutorial is optional and will outline the installation required steps inclu
 
 [5. Installing Mosquitto MQTT (clients, publishers and broker)](#installing-mosquitto)
 
-[6. Setting up a LoRa Gateway (with LoRa expansion board)]()
+[6. Setting up a LoRa Gateway (with LoRa expansion board)](setting-up-a-lora-gateway)
 
 [7. Setting up a Flask API]()
 
@@ -77,7 +77,7 @@ You can then, use SSH to interact remotely with your Raspberry Pi from your mach
 Tip: if you want to switch off remotely your Raspberry over SSH, you can run:
 `sudo poweroff`
 
-# Installing Mosquitto
+## Installing Mosquitto
 
 ```console
 # Install repository
@@ -88,9 +88,13 @@ sudo apt-add-repository ppa:mosquitto-dev/mosquitto-ppa
 # E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?"
 sudo rm /var/lib/apt/lists/lock && sudo rm /var/lib/dpkg/lock
 
-* Update repository
+# Update repository
 sudo apt-get update
 
 # Install mosquitto
 sudo apt-get install mosquitto mosquitto-clients
 
+## Setting up a LoRa gateway
+This step requires to get a LoRa expansion board, for instance this one: https://store.uputronics.com/index.php?route=product/product&path=61&product_id=68
+
+![](https://i.imgur.com/6JlluCf.png?1)
