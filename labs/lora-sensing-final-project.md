@@ -178,7 +178,7 @@ In folder `/flask-api`, run `flask run --host=0.0.0.0`
 
 Get the Raspberry Pi IP address: `hostname -I` for instance 192.168.1.101
 
-Open your browser, you should be able to get data dumped by the LoRa Gateway by writing this URL `http://192.168.1.101:5000/gateway/api`
+Open your browser, you should be able to get data dumped by the LoRa Gateway by writing this URL `http://192.168.1.101:5000/gateway/api` (you might need to update the IP address).
 
 
 ```python
@@ -234,9 +234,13 @@ def get_data():
 
 Let's analyse it:
 
+...
+
 ## Exercises
 
+1. Run the Lopy node, the LoRa Gateway and the API and try to fetch data from a Jupyter notebook. The notebook: ... will guide you through the several steps.
 
+2. Try to implement a notification system where for instance, when temperature exceeds 29.5 degrees, an sms or notification via MQTT is sent [No guidance here, this is free style].
 
 
 
