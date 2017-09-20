@@ -99,3 +99,24 @@ sudo apt-get install mosquitto mosquitto-clients
 This step requires to get a LoRa expansion board, for instance this one: https://store.uputronics.com/index.php?route=product/product&path=61&product_id=68
 
 ![](https://i.imgur.com/6JlluCf.png?1)
+
+### Setting up the LoRa expansion board
+To use this expansion board you need to run the `raspi-config` utility:
+
+`sudo raspi-config`
+
+Then navigate with keyboard arrows to `Ìnterfacing Options ▸ SPI ▸ Enable`
+
+`SPI` stands for Serial Peripheral Interface Bus: https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus
+
+### Installing LoRa gateway code
+To use the Raspberry as a LoRa gateway you need to copy and run the following code source:
+[`src/lora-sensing-final-project`](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/labs/src/lora-sensing-final-project)
+
+Using `scp`, copy the folder `raspi-lora-gateway` to the Raspberry.
+
+Last, ensure that the following libraries are installed:
+`sudo apt-get install git wiringpi libcurl4-openssl-dev libncurses5-dev`
+
+### Installing LoRa gateway code
+
