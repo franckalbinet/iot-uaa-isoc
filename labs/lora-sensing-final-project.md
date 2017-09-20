@@ -36,10 +36,6 @@ We will start with the LoRa node setup. This is pretty straighforward as this is
 
 You will find the source code in the following folder: [`src/lora-sensing-final-project`](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/labs/src/lora-sensing-final-project)
 
-## Setting up the Raspberry LoRa Gateway
-
-To run the LoRa Gateway, in  `/raspi-lora-gateway` folder run the following command: `sudo ./gateway`
-
 Below the code of `main.py` file:
 
 ```python
@@ -50,11 +46,47 @@ import socket
 import machine
 import time
 import binascii
+from pysense import Pysense
+from SI7006A20 import SI7006A20
+import pycom
+import micropython
+from machine import RTC
+
 import sys
 import utils # utilities module with CRC calculation
 
+# CONFIGURATION
+NODE_NAME = '__YOUR_NODE_NAME__'
+
 # Initialize LoRa in LORA mode.
-lora = LoRa(mode=LoRa.LORA)
+freq=868000000                  # def.: frequency=868000000
+tx_pow=14                       # def.: tx_power=14
+band=LoRa.BW_125KHZ             # def.: bandwidth=LoRa.868000000
+spreadf=8                       # def.: sf=7
+prea=8                          # def.: preamble=8
+cod_rate=LoRa.CODING_4_5        # def.: coding_rate=LoRa.CODING_4_5
+pow_mode=LoRa.ALWAYS_ON         # def.: power_mode=LoRa.ALWAYS_ON
+tx_iq_inv=False                 # def.: tx_iq=false
+rx_iq_inv=False                 # def.: rx_iq=false
+ada_dr=False                    # def.: adr=false
+pub=False                        # def.: public=true
+tx_retr=1                       # def.: tx_retries=1
+dev_class=LoRa.CLASS_A          # def.: device_class=LoRa.CLASS_A
+
+lora = LoRa(mode=LoRa.LORA,
+        frequency=freq,
+        tx_power=tx_pow,
+        bandwidth=band,
+        sf=spreadf,
+        preamble=prea,
+        coding_rate=cod_rate,
+        power_mode=pow_mode,
+        tx_iq=tx_iq_inv,
+        rx_iq=rx_iq_inv,
+        adr=ada_dr,
+        public=pub,
+        tx_retries=tx_retr,
+        device_class=dev_class)
 
 # Get loramac as id to be sent in message
 lora_mac = binascii.hexlify(network.LoRa().mac()).decode('utf8')
@@ -62,28 +94,51 @@ lora_mac = binascii.hexlify(network.LoRa().mac()).decode('utf8')
 # Create a raw LoRa socket
 s = socket.socket(socket.AF_LORA, socket.SOCK_RAW)
 
+# mr add 27/07
+s.setsockopt(socket.SOL_LORA, socket.SO_DR, 5)
+
+# Creating temp/hum object
+py = Pysense()
+tempHum = SI7006A20(py)
+
+# Initialize time
+rtc = RTC()
+rtc.init(TIME_INIT)
+
 count_tx = 0
 
 # tx loop
 while True:
     s.setblocking(True)
 
-    msgtx = str(count_tx) + ',' + lora_mac
-    crc8 = utils.crc(msgtx.encode('utf8'))
-    msgtx = msgtx + ',' + crc8
+    temperature = tempHum.temp()
+    humidity = tempHum.humidity()
+
+    template = '{},{},{:.2f},{:.1f},{}'
+    msgtx = template.format(str(count_tx),
+                            lora_mac,
+                            temperature,
+                            humidity,
+                            NODE_NAME)
+
+    msgtx = msgtx
+
+    print(msgtx)
 
     s.send(msgtx)
     print('Tx: {} is sending data ...'.format(lora_mac))
 
     count_tx += 1
 
-    # Get any data received...
-    s.setblocking(False)
-    data = s.recv(64)
-
     time.sleep(2)
 ```
 
+
+
+
+## Setting up the Raspberry LoRa Gateway
+
+To run the LoRa Gateway, in  `/raspi-lora-gateway` folder run the following command: `sudo ./gateway`
 
 
 ## Setting up the Flask API
