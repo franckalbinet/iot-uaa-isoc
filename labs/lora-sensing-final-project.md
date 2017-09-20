@@ -52,6 +52,10 @@ The source code is in the [`src/lora-sensing-final-project`](https://github.com/
 ## Introduction to data analysis with Python
 Our ultimate goal in that lab. is to monitor/analyse data collected in the field, conveyed over LoRa and fetched from an API into a Jupyter notebook.
 
+Python ecosystem includes many packages for data analysis, machine learning and deep learning. In Python data science, **Pandas** http://pandas.pydata.org is a must. We will use Pandas package for both data analysis and the Flask API (see below).
+
+A Jupyter notebook is provided here: [src/
+
 ## LoRa node setup
 We will start with the LoRa node setup. This is pretty straighforward as this is something we have seen already. We will just access Pycom's Pysense Python lib to get measurements and send it as LoRa packets.
 
