@@ -54,7 +54,7 @@ Our ultimate goal in that lab. is to monitor/analyse data collected in the field
 
 Python ecosystem includes many packages for data analysis, machine learning and deep learning. In Python data science, **Pandas** http://pandas.pydata.org is a must. We will use Pandas package for both data analysis and the Flask API (see below).
 
-A Jupyter notebook is provided here: [`src/lora-sensing-final-project/notebooks/1-intro-to-pandas.md)(src/lora-sensing-final-project/notebooks/1-intro-to-pandas.md)
+A Jupyter notebook is provided here: [`src/lora-sensing-final-project/notebooks/1-intro-to-pandas.md](src/lora-sensing-final-project/notebooks/1-intro-to-pandas.md)
 
 Launch `Anaconda` and the 'Jupyter` notebook.
 
