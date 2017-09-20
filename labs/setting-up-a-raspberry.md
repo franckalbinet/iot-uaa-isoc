@@ -24,30 +24,27 @@ Ubuntu Mate can be downloaded here: https://ubuntu-mate.org/raspberry-pi/ This l
 
 The steps below outline how to do so under MAC OSX (http://terraltech.com/copying-an-image-to-the-sd-card-in-mac-os-x/):
 
-```bash
+```make
 # Install .xz unarchiver
 brew install xz
 
-# unarchive
+# Unarchive
 xz -d ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz
 
-# displays disk usage information based on file system (ie: entire drives, attached media, etc)
-First without connecting the SD card to USB, list devices
+# Displays disk usage information based on file system (ie: entire drives, attached media, etc)
+# First without connecting the SD card to USB, list devices
 df -h
 
-# Connect your SD card and noticed the added device in the list
+# Connect your SD card and noticed the added device in the list: for instance: "/dev/disk1s1"
 df -h
-
-# For instance: "/dev/disk1s1"
 
 # Unmount the partition so that you will be allowed to overwrite the disk
-`sudo diskutil unmount /dev/disk1s1`
+sudo diskutil unmount /dev/disk1s1
 
-# Writing image on the raw device
-# If the mounted identifier is "disk1s1", we will write to the raw device identifier "rdisk1"
+# Write image on the raw device: if the mounted identifier is "disk1s1", 
+# we will write to the raw device identifier "rdisk1"
 
-# Using the device name of the partition work out the raw device name for the entire disk, by omitting the final “s1” and replacing “disk” # with “rdisk”.
-# Exemple: /dev/disk1s1 -> /dev/rdisk1
+# Using the device name of the partition work out the raw device name for the entire disk, by omitting the final “s1” and replacing “disk” # with “rdisk”. Exemple: /dev/disk1s1 -> /dev/rdisk1
 sudo dd bs=1m if=ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img of=/dev/rdisk1
 
 # After the dd command finishes, eject the card
