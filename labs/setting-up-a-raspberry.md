@@ -6,9 +6,9 @@ This tutorial is optional and will outline the installation required steps inclu
 
 [1. copying an Ubuntu Mate image to an SD card](#copying-the-ubuntu-mate-image)
 
-[2. installing Ubuntu Mate]()
+[2. installing Ubuntu Mate](#installing-ubuntu-mate)
 
-[3. enabling SSH]()
+[3. enabling SSH](#enabling-ssh)
 
 [4. identifying IP address]()
 
@@ -53,7 +53,17 @@ sudo dd bs=1m if=ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img of=/dev/rdis
 sudo diskutil eject /dev/rdisk1
 ```
 
+## Installing Ubuntu Mate
+> Important: during the installation phase, you need to connect your Raspberry to a USB mouse, a USD keyboard and a screnn via HDMI. 
 
+1. Insert the SD card with Ubuntu Mate image into the SD card reader of your Raspberry
+2. Switch it on
+3. Follow instructions of the installation steps wizard
+
+## Enabling SSH
+To enable SSH, open a terminal `right-click`
+
+sudo raspi-config
 
 
 
