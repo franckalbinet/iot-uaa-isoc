@@ -128,10 +128,6 @@ s.setsockopt(socket.SOL_LORA, socket.SO_DR, 5)
 py = Pysense()
 tempHum = SI7006A20(py)
 
-# Initialize time
-rtc = RTC()
-rtc.init(TIME_INIT)
-
 count_tx = 0
 
 # tx loop
