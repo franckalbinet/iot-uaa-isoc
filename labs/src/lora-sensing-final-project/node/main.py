@@ -70,10 +70,6 @@ s.setsockopt(socket.SOL_LORA, socket.SO_DR, 5)
 py = Pysense()
 tempHum = SI7006A20(py)
 
-# Initialize time
-rtc = RTC()
-rtc.init(TIME_INIT)
-
 count_tx = 0
 
 # tx loop
@@ -82,10 +78,6 @@ while True:
 
     temperature = tempHum.temp()
     humidity = tempHum.humidity()
-
-    # year, month, day, hour, minute, second = rtc.now()[0:6]
-    # time_stamp = '{}-{}-{} {}:{}:{}'.format(year, month, day,
-    #                                         hour, minute, second)
 
     template = '{},{},{:.2f},{:.1f},{}'
     msgtx = template.format(str(count_tx),
