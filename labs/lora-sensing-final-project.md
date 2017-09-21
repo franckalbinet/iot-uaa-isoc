@@ -232,9 +232,16 @@ def get_data():
     return jsonify(data_df.T.to_dict().values())
 ```
 
-Let's analyse it:
+Let's analyse it a bit:
 
-...
+```python
+from flask import Flask
+from flask import jsonify
+import pandas as pd
+import os
+
+import config
+import utils
 
 ## Exercises
 
