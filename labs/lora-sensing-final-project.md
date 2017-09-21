@@ -260,7 +260,32 @@ def get_data(): # Association action
 Let's make it more concrete. 
 When you write in your Browser `http://192.168.1.101:5000/gateway/api?nb_measurements=100&station_name=Monitoring station A`
 
+The `get_data` function is called and we:
+```python
+def get_data():
+    params = utils.get_params() # Retrieve the query string parameters: nb_measurements, station_name, ...
+    nb_measurements = int(params['nb_measurements']) # Get the nb of measurements and convert it to integer
+    station_name = params['station_name'] # Retrieve station name
 
+    # The LoRa gateway logs measurement in a file (appending measurements to the end of file), we hence want
+    # to retrieve only the last X measurements (actually the number you pass in your query string
+    nb_lines = sum((1 for i in open(file, 'rb'))) # A one liner to count the nb of lines in log files written by LoRa gateway
+    skiprows = max(0, nb_lines - nb_measurements) # Calculate the nb of lines to skip in order to get the last proper number of lines
+
+    # We load the csv file as a Pandas dataframe
+    data_df = pd.read_csv(file, header=None, skiprows=skiprows,
+                          names=config.CSV_COLUMN_NAMES)
+    
+    # Drop any problematic line 
+    data_df.dropna(inplace=True)
+
+    # Filter out measurements by station name
+    if (station_name):
+        data_df = data_df[data_df['station_name'] == station_name]
+
+    # And return data of interest in a JSON format
+    return jsonify(data_df.T.to_dict().values())
+```
 
 ## Exercises
 
