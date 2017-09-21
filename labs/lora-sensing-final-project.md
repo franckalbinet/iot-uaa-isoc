@@ -54,7 +54,7 @@ Our ultimate goal in that lab. is to monitor/analyse data collected in the field
 
 Python ecosystem includes many packages for data analysis, machine learning and deep learning. In Python data science, **Pandas** http://pandas.pydata.org is a must. We will use Pandas package for both data analysis and the Flask API (see below).
 
-A Jupyter notebook is provided here: [`src/lora-sensing-final-project/notebooks/1-intro-to-pandas.md`](src/lora-sensing-final-project/notebooks/1-intro-to-pandas.ipynb)
+A Jupyter notebook is provided here: [`src/lora-sensing-final-project/notebooks/1-intro-to-pandas.ipynb`](src/lora-sensing-final-project/notebooks/1-intro-to-pandas.ipynb)
 
 Launch `Anaconda` and the `Jupyter` notebook.
 
@@ -287,7 +287,7 @@ def get_data():
 ```
 
 ## Exercises
-A Jupyter notebook to complete is provided here: [`src/lora-sensing-final-project/notebooks/2-data-analysis-and-more.md`](src/lora-sensing-final-project/notebooks/2-data-analysis-and-more.ipynb)
+A Jupyter notebook to complete is provided here: [`src/lora-sensing-final-project/notebooks/2-data-analysis-and-more.ipynb`](src/lora-sensing-final-project/notebooks/2-data-analysis-and-more.ipynb)
 
 1. Run the Lopy node, the LoRa Gateway and the API and try to fetch data from a Jupyter notebook. The notebook: ... will guide you through the several steps.
 
