@@ -289,7 +289,6 @@ def get_data():
 ## Exercises
 A Jupyter notebook to complete is provided here: [`src/lora-sensing-final-project/notebooks/2-data-analysis-and-more.md`](src/lora-sensing-final-project/notebooks/2-data-analysis-and-more.md)
 
-
 1. Run the Lopy node, the LoRa Gateway and the API and try to fetch data from a Jupyter notebook. The notebook: ... will guide you through the several steps.
 
 2. Try to implement a notification system where for instance, when temperature exceeds 29.5 degrees, an sms or notification via MQTT is sent [No guidance here, this is free style].
