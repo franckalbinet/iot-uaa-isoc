@@ -27,7 +27,7 @@
 
 #### *[PROGRAMMING: PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)*
  * Catching up Python for IoT
- * Python objects, statements, abstractions (function, classes, modules, decorators), data science, ...
+ * Python objects, statements, abstractions (function, classes, modules, decorators), data analysis, ...
 
 #### *[IoT LABS](./labs/1-lab-day-1.md)*
  * Introdution to devices used in this training: Pycom's devices (LoPy, Pysense, ...) & Raspberry PI
