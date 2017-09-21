@@ -232,16 +232,35 @@ def get_data():
     return jsonify(data_df.T.to_dict().values())
 ```
 
-Let's analyse it a bit:
+Let's analyse it a bit.
+
+We first import required packages:
 
 ```python
-from flask import Flask
-from flask import jsonify
-import pandas as pd
+from flask import Flask # Flask is a web microframework
+from flask import jsonify # jsonify allows to handle JSON data-intechange format
+import pandas as pd # Pandas for data manipulation
 import os
 
-import config
-import utils
+import config # Configuration parameters 
+import utils # Utility functions
+```
+
+We create the Flask app.:
+
+`app = Flask(__name__)`
+
+The we define a route and associated action:
+
+```python
+@app.route('/gateway/api') # This @ symbol allows to define a decorator - will be introduced during lab.
+def get_data(): # Association action
+  ...
+```
+Let's make it more concrete. 
+When you write in your Browser `http://192.168.1.101:5000/gateway/api?nb_measurements=100&station_name=Monitoring station A`
+
+
 
 ## Exercises
 
