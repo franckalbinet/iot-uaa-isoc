@@ -70,6 +70,7 @@
 ## [Day 5](agenda.md)
 #### *PRESENTATIONS*
   * IoT exemple case studies: Temperature Sensing for Legionella Control Showcase (MWCA17), ...
+  * Some considerations on Big data, machine and deep learning: challenges, opportunities, ...
   
 #### *[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)*
 
