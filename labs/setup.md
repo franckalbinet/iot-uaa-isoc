@@ -100,6 +100,8 @@ To copy files from your machine to the Raspberry PI or the opposite over the SSH
 
 ## Downloading course material
 
+Course material can be download as a `zipped` archive (here)[../downloads].
+
 ## Troubleshooting
 ### Windows 7 drivers
 On most platforms, once the Atom Pymakr package installed, you will be in a position to communicate with Pycom devices via the USB port without any issue.
