@@ -170,6 +170,9 @@ To run the LoRa Gateway you will have to:
 
 
 ## Setting up the Flask API
+
+Write `export FLASK_APP=api.py` in a console.
+
 In folder `/flask-api`, run `flask run --host=0.0.0.0`
 
 Get the Raspberry Pi IP address: `hostname -I` for instance 192.168.1.101
