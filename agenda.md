@@ -75,6 +75,6 @@
 
 #### *[IoT LABS | Final project](./labs/lora-sensing-final-project.md)*
   * Part I: Sensing with Pysense nodes ▸ Aggregating data with a Raspberry Gateway ▸ Setting up an API
-  * Part II: Fetching and analysing data from a Jupyter Python notebook ▸ Creating a monitoring dashboard
+  * Part II: Analyzing the data and final challenge
 
   
