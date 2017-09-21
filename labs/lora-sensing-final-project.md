@@ -287,6 +287,8 @@ def get_data():
 ```
 
 ## Exercises
+A Jupyter notebook to complete is provided here: [`src/lora-sensing-final-project/notebooks/2-data-analysis-and-more.md`](src/lora-sensing-final-project/notebooks/2-data-analysis-and-more.md)
+
 
 1. Run the Lopy node, the LoRa Gateway and the API and try to fetch data from a Jupyter notebook. The notebook: ... will guide you through the several steps.
 
