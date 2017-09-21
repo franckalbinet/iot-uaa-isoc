@@ -73,7 +73,7 @@
   
 #### *[PYTHON 101](https://github.com/franckalbinet/iot-uaa-isoc/tree/master/python-fundamentals)*
 
-#### *[IoT LABS | Final project](./labs/5-lab-day-5.md)*
+#### *[IoT LABS | Final project](./labs/lora-sensing-final-projec.md)*
   * Part I: Sensing with Pysense nodes ▸ Aggregating data with a Raspberry Gateway ▸ Setting up an API
   * Part II: Fetching and analysing data from a Jupyter Python notebook ▸ Creating a monitoring dashboard
 
