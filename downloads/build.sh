@@ -10,7 +10,7 @@ cp ../agenda.md $folder_name
 # Copy folders
 cp -R ../labs $folder_name
 cp -R ../python-fundamentals $folder_name 
-cp -R ../softs $folder_name
+cp -R ../softs/pycom $folder_name
 echo "Files copied successfully!"
 
 # Create archive
