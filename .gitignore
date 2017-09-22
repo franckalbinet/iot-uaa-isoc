@@ -31,3 +31,13 @@ __pycache__/
 .grunt
 
 /.vs
+
+# Folders ignored
+videos/
+
+softs/anaconda
+softs/atom
+softs/filezilla
+
+
+
