@@ -50,7 +50,7 @@ Once imported:
 * to create a new folder/directory named "log": `os.mkdir('log')`;
 * ... 
 
-Take a look at [os module documentation](https://docs.pycom.io/pycom_esp32/library/uos.html) for a full list of methods.
+Take a look at [os module documentation](https://docs.pycom.io/chapter/firmwareapi/micropython/uos.html) for a full list of methods.
 
 Now notice that if you list the files and folders under the `root` folder:
 `os.listdir('/'),`you get only the `flash` directory. There is no `SD` card mounted yet.
