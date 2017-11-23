@@ -42,7 +42,7 @@ The folder tree is the following:
 
 By default, when you sync `main.py, boot.py, ...` from your atom project, these files are written into the `flash` folder.
 
-Let's explore and navigate this folder structure interactively. Connect to a Lopy via the Atom console and import the [basic operating system module (os)](https://docs.pycom.io/pycom_esp32/library/uos.html): `import os`. 
+Let's explore and navigate this folder structure interactively. Connect to a Lopy via the Atom console and import the [basic operating system module (os)](https://docs.pycom.io/chapter/firmwareapi/micropython/uos.html): `import os`. 
 
 Once imported:
 * to know you current working directory: `os.getcwd()` (most probably the `/flash`folder);
