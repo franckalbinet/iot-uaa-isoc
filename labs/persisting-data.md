@@ -46,7 +46,7 @@ Let's explore and navigate this folder structure interactively. Connect to a Lop
 
 Once imported:
 * to know you current working directory: `os.getcwd()` (most probably the `/flash`folder);
-* to list folders and files in your current working directory: `os.listdir()``;
+* to list folders and files in your current working directory: `os.listdir()`;
 * to create a new folder/directory named "log": `os.mkdir('log')`;
 * ... 
 
