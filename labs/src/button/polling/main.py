@@ -9,7 +9,9 @@ button = Pin("P14", mode=Pin.IN, pull=Pin.PULL_UP)
 is_pressed = False
 
 while True:
-    if button() == 0 and not is_pressed:
+    if button() == 1 and not is_pressed:
+        time.sleep(1)
+    elif button() == 0 and not is_pressed:
         print("Button pressed")
         is_pressed = True
     elif button() == 1 and is_pressed:
